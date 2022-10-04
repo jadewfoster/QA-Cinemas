@@ -6,9 +6,9 @@ const app = express();
 
 app.use(bodyParser.json());
 
-app.use("/discussions", require("./routes/discussionsAPI"));
-app.use("/ticketprices", require("./routes/ticketPricesAPI"));
-app.use("/screenings", require("./routes/screeningsAPI"));
+app.use("/cinema/discussions", require("./routes/discussionsAPI"));
+app.use("/cinema/ticketprices", require("./routes/ticketPricesAPI"));
+app.use("/cinema/screenings", require("./routes/screeningsAPI"));
 
 mongoose.connect("mongodb://localhost:27017/Cinema").then(() => {
     console.log("DB connected!");
