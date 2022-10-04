@@ -1,13 +1,14 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 const{Schema, model} = mongoose;
 
 const DiscussionsSchema = new Schema({
 
-    "Movie name": String,
+    MovieName: String,
     Username: String,
     Comment: String,
     Rating: Number
 })
 
 const DiscussionsModel = model("Discussions", DiscussionsSchema);
+
 module.exports = {DiscussionsModel, DiscussionsSchema};
