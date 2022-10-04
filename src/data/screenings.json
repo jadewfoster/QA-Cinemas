@@ -35,7 +35,7 @@
     "ScreenNum": 2,
     "ScreenType": "Standard",
     "Movie": {},
-    "Date": "18-10-2022",
+    "Date": "17-10-2022",
     "Time": "19:00",
     "SeatsLeft": 100
 },
@@ -57,6 +57,67 @@
     "Movie": {},
     "Date": "17-10-2022",
     "Time": "15:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonCentral",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "18-10-2022",
+    "Time": "14:00",
+    "SeatsLeft": 100
+    
+},
+
+{
+    "CinemaName": "LondonSouth",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "18-10-2022",
+    "Time": "21:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonNorth",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "18-10-2022",
+    "Time": "20:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonCentral",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "18-10-2022",
+    "Time": "19:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonSouth",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "18-10-2022",
+    "Time": "19:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonNorth",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "18-10-2022",
+    "Time": "16:00",
     "SeatsLeft": 100
 },
 
@@ -153,6 +214,67 @@
 
 {
     "CinemaName": "LondonCentral",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "20-10-2022",
+    "Time": "17:00",
+    "SeatsLeft": 100
+    
+},
+
+{
+    "CinemaName": "LondonSouth",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "20-10-2022",
+    "Time": "18:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonNorth",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "20-10-2022",
+    "Time": "20:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonCentral",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "20-10-2022",
+    "Time": "16:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonSouth",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "20-10-2022",
+    "Time": "21:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonNorth",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "20-10-2022",
+    "Time": "18:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonCentral",
     "ScreenNum": 3,
     "ScreenType": "Director",
     "Movie": {},
@@ -179,6 +301,280 @@
     "Date": "20-10-2022",
     "Time": "19:30",
     "SeatsLeft": 50
+},
+
+{
+    "CinemaName": "LondonCentral",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "21-10-2022",
+    "Time": "17:00",
+    "SeatsLeft": 100
+    
+},
+
+{
+    "CinemaName": "LondonSouth",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "21-10-2022",
+    "Time": "19:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonNorth",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "21-10-2022",
+    "Time": "22:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonCentral",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "21-10-2022",
+    "Time": "19:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonSouth",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "21-10-2022",
+    "Time": "23:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonNorth",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "21-10-2022",
+    "Time": "18:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonCentral",
+    "ScreenNum": 3,
+    "ScreenType": "Director",
+    "Movie": {},
+    "Date": "21-10-2022",
+    "Time": "19:00",
+    "SeatsLeft": 50
+},
+
+{
+    "CinemaName": "LondonSouth",
+    "ScreenNum": 3,
+    "ScreenType": "Director",
+    "Movie": {},
+    "Date": "21-10-2022",
+    "Time": "21:00",
+    "SeatsLeft": 50
+},
+
+{
+    "CinemaName": "LondonNorth",
+    "ScreenNum": 3,
+    "ScreenType": "Director",
+    "Movie": {},
+    "Date": "21-10-2022",
+    "Time": "19:30",
+    "SeatsLeft": 50
+},
+
+{
+    "CinemaName": "LondonCentral",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "22-10-2022",
+    "Time": "19:00",
+    "SeatsLeft": 100
+    
+},
+
+{
+    "CinemaName": "LondonSouth",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "22-10-2022",
+    "Time": "18:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonNorth",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "22-10-2022",
+    "Time": "21:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonCentral",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "22-10-2022",
+    "Time": "18:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonSouth",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "22-10-2022",
+    "Time": "19:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonNorth",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "22-10-2022",
+    "Time": "20:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonCentral",
+    "ScreenNum": 3,
+    "ScreenType": "Director",
+    "Movie": {},
+    "Date": "22-10-2022",
+    "Time": "21:00",
+    "SeatsLeft": 50
+},
+
+{
+    "CinemaName": "LondonSouth",
+    "ScreenNum": 3,
+    "ScreenType": "Director",
+    "Movie": {},
+    "Date": "22-10-2022",
+    "Time": "21:30",
+    "SeatsLeft": 50
+},
+
+{
+    "CinemaName": "LondonNorth",
+    "ScreenNum": 3,
+    "ScreenType": "Director",
+    "Movie": {},
+    "Date": "22-10-2022",
+    "Time": "20:30",
+    "SeatsLeft": 50
+},
+
+{
+    "CinemaName": "LondonCentral",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "23-10-2022",
+    "Time": "18:00",
+    "SeatsLeft": 100
+    
+},
+
+{
+    "CinemaName": "LondonSouth",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "23-10-2022",
+    "Time": "20:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonNorth",
+    "ScreenNum": 1,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "23-10-2022",
+    "Time": "16:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonCentral",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "23-10-2022",
+    "Time": "19:30",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonSouth",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "23-10-2022",
+    "Time": "21:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonNorth",
+    "ScreenNum": 2,
+    "ScreenType": "Standard",
+    "Movie": {},
+    "Date": "23-10-2022",
+    "Time": "17:00",
+    "SeatsLeft": 100
+},
+
+{
+    "CinemaName": "LondonCentral",
+    "ScreenNum": 3,
+    "ScreenType": "Director",
+    "Movie": {},
+    "Date": "23-10-2022",
+    "Time": "20:00",
+    "SeatsLeft": 50
+},
+
+{
+    "CinemaName": "LondonSouth",
+    "ScreenNum": 3,
+    "ScreenType": "Director",
+    "Movie": {},
+    "Date": "23-10-2022",
+    "Time": "21:30",
+    "SeatsLeft": 50
+},
+
+{
+    "CinemaName": "LondonNorth",
+    "ScreenNum": 3,
+    "ScreenType": "Director",
+    "Movie": {},
+    "Date": "23-10-2022",
+    "Time": "20:00",
+    "SeatsLeft": 50
 }
+
 
 ]
