@@ -10,7 +10,7 @@ app.use("/discussions", require("./routes/discussionsAPI"));
 app.use("/ticketprices", require("./routes/ticketPricesAPI"));
 app.use("/screenings", require("./routes/screeningsAPI"));
 
-mongoose.connect("mongodb://localhost:27017/Pokemons").then(() => {
+mongoose.connect("mongodb://localhost:27017/Cinema").then(() => {
     console.log("DB connected!");
 })
 

@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const {ScreeningsModel} = require("../schema/screenings.js");
+const {ScreeningsModel} = require("../schema/screenings");
 
 router.get("/getAll", (req,res) => {
     ScreeningsModel.find({CinemaName:req.body.CinemaName, Movie}).then(b => {
@@ -8,3 +8,5 @@ router.get("/getAll", (req,res) => {
         res.status(500).json(err)
     })
 })
+
+module.exports = router;

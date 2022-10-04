@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const {DiscussionsModel} = require("../schema/discussions.js");
+const {DiscussionsModel} = require("../schema/discussions");
 
 router.post("/create", (req,res) => {
     DiscussionsModel.create(req.body).then(ds => {
@@ -17,3 +17,5 @@ router.get("/getFive", (req,res) => {
         res.status(500).json(err);
     })
 })
+
+module.exports = router;
