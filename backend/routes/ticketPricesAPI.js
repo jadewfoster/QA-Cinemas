@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const {TicketPricesModel} = require("../schema/ticketPrices");
 
-router.get("/get", (req,res) => {
+router.get("/getAll", (req,res) => {
     TicketPricesModel.find({}).then(tp => {
         res.status(200).json(tp);
     }).catch((err) => {
