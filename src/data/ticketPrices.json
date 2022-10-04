@@ -1,19 +1,31 @@
 [
     {
         "UserType": "Adult",
-        "Prices": {"Standard": 7.50,
-                    "Director": 12.50}
+        "Price": {"ScreenType":"Standard", "Price":7.50}
+    },
+
+    {
+        "UserType":"Adult",
+        "Price":{"ScreenType":"Director", "Price": 12.50}
     },
 
     {
         "UserType": "Child",
-        "Prices": {"Standard": 5.00,
-                    "Director": 10.00}
+        "Price": {"ScreenType":"Standard", "Price":5}
+    },
+
+    {
+        "UserType":"Child",
+        "Price":{"ScreenType":"Director", "Price": 10}
     },
 
     {
         "UserType": "Concession",
-        "Prices": {"Standard": 6.75,
-                    "Director": 11.75}
+        "Price": {"ScreenType":"Standard", "Price":6.75}
+    },
+
+    {
+        "UserType":"Concession",
+        "Price":{"ScreenType":"Director", "Price": 11.75}
     }
 ]

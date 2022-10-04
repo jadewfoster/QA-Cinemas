@@ -2,11 +2,10 @@ const mongoose = require("mongoose");
 
 const TicketPriceSchema = mongoose.Schema({
     UserType: {type:String, required:true},
-    Prices: {
-        Standard: Number,
-        Director: Number
+    Price: {
+        ScreenType: String,
+        Price: Number
     }
-
 })
 
 const TicketPricesModel = mongoose.model("TicketPrices", TicketPriceSchema);
