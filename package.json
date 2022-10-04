@@ -9,7 +9,7 @@
     "chai": "^4.3.6",
     "express": "^4.18.1",
     "mocha": "^10.0.0",
-    "mongoose": "^6.6.3",
+    "mongoose": "^6.6.4",
     "node": "^18.10.0",
     "nodemon": "^2.0.20",
     "react": "^18.2.0",
@@ -43,7 +43,6 @@
   },
   "description": "QA Final Project - Creating a functional website for a cinema",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jadewfoster/QA-Cinemas.git"

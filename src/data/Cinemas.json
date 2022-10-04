@@ -1,0 +1,126 @@
+[
+    {
+        "Name":"LondonCentral",
+        "Location":"W1K 4AL",
+        "Phone Number":447488810564,
+        "Manager's email":"londoncentralmanager@qacinemas.com",
+        "Standard screens":{"Number of screens":10, "Capacity":100},
+        "Director screens":{"Number of screens":2, "Capacity":50},
+        "Movies shown":[
+            {"Name":"Don't Worry Darling",
+        "Actors":["Harry Styles", "Olivia Wilde", "Florence Pugh", "Chris Pine", "Gemma Chan", "Sydney Chandler"],
+        "Director":"Olivia Wilde",
+        "Genre":"Thriller/Horror",
+        "Release Date":"2022-09-23",
+        "Duration":123,
+        "Classification":"R"},
+        
+        {"Name":"Mrs. Harris Goes to Paris",
+        "Actors":["Lesley Manville", "Alba Baptista", "Lucas Bravo", "Rose Williams", "Jason Isaacs", "Isabelle Huppert"],
+        "Director":"Anthony Fabian",
+        "Genre":"Comedy/Drama",
+        "Release Date":"2022-09-30",
+        "Duration":116,
+        "Classification":"PG"},
+        
+        {"Name":"Smile",
+        "Actors":["Sosie Bacon", "Caitlin Stasey", "Jessie T. Usher", "Kyle Gallner", "Rob Morgan", "Nick Arapoglou"],
+        "Director":"Parker Finn",
+        "Genre":"Horror/Psychological horror ",
+        "Release Date":"2022-09-28",
+        "Duration":115,
+        "Classification":"R"},
+        
+        {"Name":"Ticket to Paradise",
+        "Actors":["Julia Roberts", "George Clooney", "Kaitlyn Dever", "Maxime Bouttier", "Lucas Bravo", "Billie Lourd"],
+        "Director":"Ol Parker",
+        "Genre":"Romance/Comedy",
+        "Release Date":"2022-09-20",
+        "Duration":104,
+        "Classification":"PG-13"}
+        ]
+    },
+    {
+        "Name":"LondonSouth",
+        "Location":"SW9 6XB",
+        "Phone Number":447488810566,
+        "Manager's email":"londonsouthmanager@qacinemas.com",
+        "Standard screens":{"Number of screens":8, "Capacity":100},
+        "Director screens":{"Number of screens":1, "Capacity":50},
+        "Movies shown":[
+            {"Name":"Don't Worry Darling",
+        "Actors":["Harry Styles", "Olivia Wilde", "Florence Pugh", "Chris Pine", "Gemma Chan", "Sydney Chandler"],
+        "Director":"Olivia Wilde",
+        "Genre":"Thriller/Horror",
+        "Release Date":"2022-09-23",
+        "Duration":123,
+        "Classification":"R"},
+        
+        {"Name":"Mrs. Harris Goes to Paris",
+        "Actors":["Lesley Manville", "Alba Baptista", "Lucas Bravo", "Rose Williams", "Jason Isaacs", "Isabelle Huppert"],
+        "Director":"Anthony Fabian",
+        "Genre":"Comedy/Drama",
+        "Release Date":"2022-09-30",
+        "Duration":116,
+        "Classification":"PG"},
+        
+        {"Name":"Smile",
+        "Actors":["Sosie Bacon", "Caitlin Stasey", "Jessie T. Usher", "Kyle Gallner", "Rob Morgan", "Nick Arapoglou"],
+        "Director":"Parker Finn",
+        "Genre":"Horror/Psychological horror ",
+        "Release Date":"2022-09-28",
+        "Duration":115,
+        "Classification":"R"},
+        
+        {"Name":"Ticket to Paradise",
+        "Actors":["Julia Roberts", "George Clooney", "Kaitlyn Dever", "Maxime Bouttier", "Lucas Bravo", "Billie Lourd"],
+        "Director":"Ol Parker",
+        "Genre":"Romance/Comedy",
+        "Release Date":"2022-09-20",
+        "Duration":104,
+        "Classification":"PG-13"}
+        ]
+    },
+    {
+        "Name":"LondonNorth",
+        "Location":"N1 3BF",
+        "Phone Number":447458196484,
+        "Manager's email":"londonnorthmanager@qacinemas.com",
+        "Standard screens":{"Number of screens":8, "Capacity":100},
+        "Director screens":{"Number of screens":1, "Capacity":50},
+        "Movies shown":[
+            {"Name":"Don't Worry Darling",
+        "Actors":["Harry Styles", "Olivia Wilde", "Florence Pugh", "Chris Pine", "Gemma Chan", "Sydney Chandler"],
+        "Director":"Olivia Wilde",
+        "Genre":"Thriller/Horror",
+        "Release Date":"2022-09-23",
+        "Duration":123,
+        "Classification":"R"},
+        
+        {"Name":"Mrs. Harris Goes to Paris",
+        "Actors":["Lesley Manville", "Alba Baptista", "Lucas Bravo", "Rose Williams", "Jason Isaacs", "Isabelle Huppert"],
+        "Director":"Anthony Fabian",
+        "Genre":"Comedy/Drama",
+        "Release Date":"2022-09-30",
+        "Duration":116,
+        "Classification":"PG"},
+        
+        {"Name":"Smile",
+        "Actors":["Sosie Bacon", "Caitlin Stasey", "Jessie T. Usher", "Kyle Gallner", "Rob Morgan", "Nick Arapoglou"],
+        "Director":"Parker Finn",
+        "Genre":"Horror/Psychological horror ",
+        "Release Date":"2022-09-28",
+        "Duration":115,
+        "Classification":"R"},
+        
+        {"Name":"Ticket to Paradise",
+        "Actors":["Julia Roberts", "George Clooney", "Kaitlyn Dever", "Maxime Bouttier", "Lucas Bravo", "Billie Lourd"],
+        "Director":"Ol Parker",
+        "Genre":"Romance/Comedy",
+        "Release Date":"2022-09-20",
+        "Duration":104,
+        "Classification":"PG-13"}
+        ]
+    }
+
+]
