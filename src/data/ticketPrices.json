@@ -1,0 +1,19 @@
+[
+    {
+        "UserType": "Adult",
+        "Prices": {"Standard": 7.50,
+                    "Director": 12.50}
+    },
+
+    {
+        "UserType": "Child",
+        "Prices": {"Standard": 5.00,
+                    "Director": 10.00}
+    },
+
+    {
+        "UserType": "Concession",
+        "Prices": {"Standard": 6.75,
+                    "Director": 11.75}
+    }
+]
