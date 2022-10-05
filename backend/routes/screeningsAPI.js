@@ -11,7 +11,7 @@ router.get("/getAll", (req, res) => {
 
 //filter by cinema name and movie name => only gives back dates and times
 router.get("/getDateAndTime", (req, res) => {
-    const byCinemaName = ScreeningsModel.find({$and: [ {CinemaName:req.body.CinemaName}, {MovieName:req.body.MovieName}]}, {_id:0, Date:1, Time:1}).then(c => {
+    ScreeningsModel.find({$and: [ {CinemaName:req.body.CinemaName}, {MovieName:req.body.MovieName}]}, {_id:0, Date:1, Time:1}).then(c => {
         res.status(200).json(c)
     }).catch((err)=> {
         res.status(500).json(err)
