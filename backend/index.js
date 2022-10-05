@@ -23,4 +23,9 @@ const server = app.listen(3001, () => {
     console.log("Server started successfully on port " + server.address().port);
 })
 
+
+server.on("close", () => {
+    mongoose.connection.close();
+})
+
 module.exports = server;
