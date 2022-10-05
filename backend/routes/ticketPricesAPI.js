@@ -9,13 +9,18 @@ router.get("/getAll", (req,res) => {
     })
 })
 
-//filter by user type and screen type
+//filtering ticket price by user type and screen type
 router.get("/getFiltered", (req, res) => {
-    TicketPricesModel.find({UserType:req.body.UserType, "Price.ScreenType":req.body.Price.ScreenType}).then(tp => {
+    TicketPricesModel.find({$and:
+        [
+            {UserType : req.body.UserType},
+            {ScreenType : req.body.ScreenType}
+        ]
+    },{_id:0, Price:1}).then(tp => {
         res.status(200).json(tp)
     }).catch((err)=> {
         res.status(500).json(err)
-    })
+    })                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 })
 
 module.exports = router;

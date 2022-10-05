@@ -1,31 +1,31 @@
 [
     {
         "UserType": "Adult",
-        "Price": {"ScreenType":"Standard", "Price":7.50}
+        "ScreenType":"Standard", "Price":7.50
     },
 
     {
         "UserType":"Adult",
-        "Price":{"ScreenType":"Director", "Price": 12.50}
+        "ScreenType":"Director", "Price": 12.50
     },
 
     {
         "UserType": "Child",
-        "Price": {"ScreenType":"Standard", "Price":5}
+        "ScreenType":"Standard", "Price":5
     },
 
     {
         "UserType":"Child",
-        "Price":{"ScreenType":"Director", "Price": 10}
+        "ScreenType":"Director", "Price": 10
     },
 
     {
         "UserType": "Concession",
-        "Price": {"ScreenType":"Standard", "Price":6.75}
+        "ScreenType":"Standard", "Price":6.75
     },
 
     {
         "UserType":"Concession",
-        "Price":{"ScreenType":"Director", "Price": 11.75}
+        "ScreenType":"Director", "Price": 11.75
     }
 ]

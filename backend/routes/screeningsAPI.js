@@ -28,6 +28,7 @@ router.get("/getScreeningTimes", (req,res) => {
     })
 })
 
+//seats left - use URL 
 
 module.exports = router;
 
