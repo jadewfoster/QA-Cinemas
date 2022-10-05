@@ -2,7 +2,7 @@ const router = require("express").Router();
 const {ScreeningsModel} = require("../schema/screenings.js");
 
 router.get("/getAll", (req, res) => {
-    ScreeningsModel.find().then(c => {
+    ScreeningsModel.find({}).then(c => {
         res.status(200).json(c)
     }).catch((err)=> {
         res.status(500).json(err)
