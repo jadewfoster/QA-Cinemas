@@ -10,6 +10,11 @@ app.use("/cinema/discussions", require("./routes/discussionsAPI"));
 app.use("/cinema/ticketprices", require("./routes/ticketPricesAPI"));
 app.use("/cinema/screenings", require("./routes/screeningsAPI"));
 
+//testing routes
+app.use("/cinema/discussionsTest", require("./routes/discussionsAPI"));
+app.use("/cinema/ticketpricesTest", require("./routes/ticketPricesAPI"));
+app.use("/cinema/screeningsTest", require("./routes/screeningsAPI"));
+
 mongoose.connect("mongodb://localhost:27017/Cinema").then(() => {
     console.log("DB connected!");
 })
