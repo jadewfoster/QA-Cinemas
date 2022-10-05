@@ -9,7 +9,10 @@ import PlacesPage from './components/Places/PlacesPage';
 import WhatsOnPage from './components/WhatsOn/WhatsOnPage';
 import ComingSoon from './components/ComingSoon/ComingSoon';
 
+
+
 function App() {
+
   return (
     <div className="App">
       <Navbar/>
@@ -18,9 +21,9 @@ function App() {
         <Route path="/home" element={<HomePage/>}/>
         <Route path="/our-cinemas" element={<PlacesPage/>}/>
         <Route path="/what's-on" element={<WhatsOnPage/>}/>
-        <Route path="/coming soon" element={<ComingSoon/>}/>
+        <Route path="/coming-soon" element={<ComingSoon/>}/>
         <Route path="/bookings" element={<BookingsPage/>}/>
-        <Route path="/discussions" element={<Discussion/>}/>
+        <Route path="/discussion" element={<Discussion/>}/>
 
         </Routes>
 

@@ -1,14 +1,19 @@
 import React from 'react'
 import {Link, useMatch, useResolvedPath} from 'react-router-dom'
-
+import Logo from "../ManyPages/assets/Logo.jpeg";
 export default function Navbar() {
+
+
     return (
     <nav className="nav">
+        <div className="flex items-center font-medium justify-around">
+            <img src={Logo} alt="logo" display="in-line block" vertical-align="middle" height="50%" width="90%"/>
+        </div>
 
-        <Link to="/" className="title">QA Cinemas</Link>
+        
     <ul>
         <li className="hover">
-            <CustomLink to="/home">Home</CustomLink>
+            <CustomLink to="/home">Home</CustomLink>  
         </li>
         <li>
         <CustomLink to="/info">Info</CustomLink>

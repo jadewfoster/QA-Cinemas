@@ -14,10 +14,13 @@
     "node": "^18.10.0",
     "nodemon": "^2.0.20",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.1",
     "react-scripts": "^2.1.8",
-    "web-vitals": "^2.1.4"
+    "testing-library": "^0.0.2",
+    "web-vitals": "^2.1.4",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
