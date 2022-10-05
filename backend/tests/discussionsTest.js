@@ -31,6 +31,8 @@ describe("discussionsAPI test", function(){
             })
         })
     })
+
+    it("/getFiltered")
 })
 
 after("Stop server", function(){
