@@ -28,23 +28,21 @@ router.get("/getScreeningTimes", (req,res) => {
     })
 })
 
-//seats left - use URL 
-router.put("/updateSeatsLeftOne/:numOfTickets", (req,res) => {
-    const numOfTickets = req.params.numOfTickets;
-    var data = "";
-    ScreeningsModel.find({$and: [ {CinemaName:req.body.CinemaName}, {MovieName:req.body.MovieName}, {Date:req.body.Date}, {Time:req.body.Time}]}, {_id:0, SeatsLeft:1}).then(d => {
-        res.status(200).on("data", (numOfTickets) => {
-            data - numOfTickets;
-        })
+router.put('/put/:tickets', (req, res) => {
+
+    const tickets = req.params.tickets;
+    const filter = { $and: [ {CinemaName:req.body.CinemaName}, {MovieName:req.body.MovieName},
+        {ScreenType:req.body.ScreenType}, {Date:req.body.Date}, {Time:req.body.Time}, {SeatsLeft:req.body.SeatsLeft}] };
+    const update = {SeatsLeft:(req.body.SeatsLeft-=tickets)};
+    const opts = { new: true };
+
+    ScreeningsModel.findOneAndUpdate(filter, update, opts).then((d) => {
+        res.status(200).json(d);
+
     }).catch((err)=> {
         res.status(500).json(err)
-    })
+    });
 
-})
-
-router.put("/updateSeatsLeftTwo", (req,res) => {
-    
-    ScreeningsModel.updateOne({})
 })
 
 module.exports = router;
