@@ -30,7 +30,7 @@ describe("screeningsAPI test", function() {
 
     it("/getAll", function() {
         ScreeningsModel.find({}).then(g => {
-            chai.request(url+"/screeningsGetAll").get("/getAll").then( res => {
+            chai.request(url).get("/getAll").then( res => {
 
                 chai.expect(err).to.be.null;
                 chai.expect(res).to.have.status(200)
@@ -43,7 +43,7 @@ describe("screeningsAPI test", function() {
     it("/getDateAndTime", function() {
         const body = {CinemaName: "LondonNorth", MovieName:"Mrs. Harris Goes to Paris"}
         ScreeningsModel.find({$and: [ {CinemaName:body.CinemaName}, {MovieName:body.MovieName}]}, {_id:0, Date:1, Time:1}).then(c => {
-            chai.request(url+"/screeningsGetDateAndTime").get("/getDateAndTime").then( res => {
+            chai.request(url).get("/getDateAndTime").then( res => {
                 chai.expect(err).to.be.null;
                 chai.expect(res).to.have.status(200)
                 chai.expect(res.body).to.equal(c)
@@ -54,7 +54,7 @@ describe("screeningsAPI test", function() {
     it("/getScreeningTimes", function() {
         const body = {CinemaName: "LondonNorth", MovieName:"Mrs. Harris Goes to Paris", Date: "23-10-2022"}
         ScreeningsModel.find({$and: [ {CinemaName:body.CinemaName}, {MovieName:body.MovieName}, {Date:body.Date}]}, {_id:0, Time:1}).then(c => {
-            chai.request(url+"/screeningsGetScreeningTimes").get("/getScreeningTimes").then( res => {
+            chai.request(url).get("/getScreeningTimes").then( res => {
                 chai.expect(err).to.be.null;
                 chai.expect(res).to.have.status(200)
                 chai.expect(res.body).to.equal(c)
@@ -65,7 +65,7 @@ describe("screeningsAPI test", function() {
     it("/getSeatsLeft", function() {
         const body = {CinemaName: "LondonNorth", MovieName:"Mrs. Harris Goes to Paris", Date: "23-10-2022", Time: "20:00"}
         ScreeningsModel.find({$and: [ {CinemaName:body.CinemaName}, {MovieName:body.MovieName}, {Date:body.Date}, {Time:body.Time}]}, {_id:0, SeatsLeft:1}).then(sl => {
-            chai.request(url+"/screeningsGetSeatsLeft").get("/getSeatsLeft").then( res => {
+            chai.request(url).get("/getSeatsLeft").then( res => {
                 chai.expect(err).to.be.null;
                 chai.expect(res).to.have.status(200)
                 chai.expect(res.body).to.equal(c)
@@ -80,7 +80,14 @@ describe("screeningsAPI test", function() {
             {ScreenType:body.ScreenType}, {Date:body.Date}, {Time:body.Time}, {SeatsLeft:body.SeatsLeft}] };
         const update = {SeatsLeft:(body.SeatsLeft-=tickets)};
         const opts = { new: true };
-        ScreeningsModel.findOneAndUpdate(filter, update, opts)
+        ScreeningsModel.findOneAndUpdate(filter, update, opts).then(d => {
+            chai.request(url).put("/put/:tickets").then( res => {
+                chai.expect(err).to.be.null;
+                chai.expect(res).to.have.status(200)
+                chai.expect(res.body).to.equal(d)
+            })
+
+        })
     })
 
 })
