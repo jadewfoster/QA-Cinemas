@@ -20,7 +20,7 @@ router.get("/getAllScreenings", (req, res) => {
 
 //filter by cinema name, movie name and date
 router.get("/getScreeningTimes", (req,res) => {
-    ScreeningsModel.find({CinemaName:req.body.CinemaName, Movie:req.body.Movie.Name, Date:req.body.Date}).then(d => {
+    ScreeningsModel.find({CinemaName:req.body.CinemaName, Movie:req.body.Movie.Name, Date:req.body.Date}).then(c => {
         res.status(200).json(c)
     }).catch((err)=> {
         res.status(500).json(err)
