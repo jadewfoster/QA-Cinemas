@@ -11,6 +11,7 @@ import ComingSoon from './components/ComingSoon/ComingSoon';
 
 
 
+
 function App() {
 
   return (
@@ -26,6 +27,8 @@ function App() {
         <Route path="/discussion" element={<Discussion/>}/>
 
         </Routes>
+
+        
 
       </div>
 

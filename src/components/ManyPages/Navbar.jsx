@@ -1,12 +1,15 @@
 import React from 'react'
 import {Link, useMatch, useResolvedPath} from 'react-router-dom'
 import Logo from "../ManyPages/assets/Logo.jpeg";
-export default function Navbar() {
+import List from "../../components/ManyPages/DropDown"
+import { Dropdown } from 'react-bootstrap';
 
+
+export default function Navbar() {
 
     return (
     <nav className="nav">
-        <div className="flex items-center font-medium justify-around">
+        <div className="flex items-center justify-around">
             <img src={Logo} alt="logo" display="in-line block" vertical-align="middle" height="50%" width="90%"/>
         </div>
 
@@ -15,18 +18,9 @@ export default function Navbar() {
         <li className="hover">
             <CustomLink to="/home">Home</CustomLink>  
         </li>
-        <li>
-        <CustomLink to="/info">Info</CustomLink>
-        </li>
-        <li>
-        <CustomLink to="/our-cinemas">Our Cinemas</CustomLink>
-        </li>
-        <li>
-        <CustomLink to="/what's-on">What's On</CustomLink>
-        </li>
-        <li>
-        <CustomLink to="/coming-soon">Coming Soon</CustomLink>
-        </li>
+        
+        <List title= "Info"/>
+    
         <li>
         <CustomLink to="/bookings">My Bookings</CustomLink>
         </li>
