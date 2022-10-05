@@ -15,7 +15,7 @@ const ScreeningSchema = mongoose.Schema({
     CinemaName: {type:String, required:true},
     ScreenNum: {type:Number, required:true},
     ScreenType: {type:String, required:true},
-    Movie: {type:[MovieSchema], required:true},
+    MovieName: {type:String, required:true},
     Date: {type:String, required:true},
     Time: {type:String, required:true},
     SeatsLeft: {type:Number, required:true}

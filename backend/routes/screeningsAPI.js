@@ -28,6 +28,20 @@ router.get("/getScreeningTimes", (req,res) => {
     })
 })
 
+//seats left - use URL 
+
+
+
+router.get("/getSeatsLeft", (req,res) => {
+
+    ScreeningsModel.find({$and: [ {CinemaName:req.body.CinemaName}, {MovieName:req.body.MovieName}, {Date:req.body.Date}, {Time:req.body.Time}]}, {_id:0, SeatsLeft:1}).then(sl => {
+        res.status(200).json(sl)
+    }).catch((err)=> {
+        res.status(500).json(err)
+    })
+})
+
+
 router.put('/put/:tickets', (req, res) => {
 
     const tickets = req.params.tickets;
