@@ -1,17 +1,16 @@
-import { Dropdown } from "react-bootstrap";
-import { useState } from "react";
 import React from 'react'
+import { Dropdown } from "react-bootstrap";
+import './dropdown.css'
+
 
 export default function List(){
-  const [showDropdown, setShowDropdown] = useState(false);
 
   return (
 
     <>
-    <Dropdown
-          onMouseLeave={() => setShowDropdown(false)}
-          onMouseOver={() => setShowDropdown(true)}>
-    <Dropdown.Toggle style={{fontFamily:"Bebas Neue", backgroundColor:"#4CD3CA" , border:"none", fontSize: "large", alignItems: "center", cursor:"pointer"}} >
+    <Dropdown classNme>
+
+    <Dropdown.Toggle className='dropbtn'>
       Info
     </Dropdown.Toggle>
 
@@ -22,7 +21,7 @@ export default function List(){
     </Dropdown.Menu>
   </Dropdown>
         <Dropdown>
-        <Dropdown.Toggle style={{fontFamily:"Bebas Neue", backgroundColor:"#4CD3CA" , border:"none", fontSize: "large", alignItems: "center", cursor:"pointer"}}>
+        <Dropdown.Toggle className='dropbtn'>
           Our Cinemas
         </Dropdown.Toggle>
     
@@ -35,7 +34,7 @@ export default function List(){
 
 
           <Dropdown>
-          <Dropdown.Toggle style={{fontFamily:"Bebas Neue", backgroundColor:"#4CD3CA" , border:"none", fontSize: "large", alignItems: "center", cursor:"pointer"}}>
+          <Dropdown.Toggle className='dropbtn'>
             What's On
           </Dropdown.Toggle>
       
@@ -45,7 +44,7 @@ export default function List(){
           </Dropdown.Menu>
         </Dropdown>
               <Dropdown>
-              <Dropdown.Toggle style={{fontFamily:"Bebas Neue", backgroundColor:"#4CD3CA" , border:"none", fontSize: "large", alignItems: "center", cursor:"pointer"}}>
+              <Dropdown.Toggle className='dropbtn'>
                 Coming Soon
               </Dropdown.Toggle>
           

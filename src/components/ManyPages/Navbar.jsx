@@ -18,9 +18,8 @@ export default function Navbar() {
         <li className="hover">
             <CustomLink to="/home">Home</CustomLink>  
         </li>
-        
         <List title= "Info"/>
-    
+
         <li>
         <CustomLink to="/bookings">My Bookings</CustomLink>
         </li>
