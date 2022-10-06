@@ -15,7 +15,7 @@ app.use("/cinema/discussionsTest", require("./routes/discussionsAPI"));
 app.use("/cinema/ticketpricesTest", require("./routes/ticketPricesAPI"));
 app.use("/cinema/screeningsTest", require("./routes/screeningsAPI"));
 
-mongoose.connect("mongodb://localhost:27017/Cinema").then(() => {
+mongoose.connect("mongodb://127.0.0.1:27017/Cinema").then(() => {
     console.log("DB connected!");
 })
 

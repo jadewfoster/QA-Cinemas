@@ -10,7 +10,7 @@ let url = "localhost:3001/cinema";
 
 before("Start server", async function(){
     await mongoose.connection.close()
-    await mongoose.connect("mongodb://localhost:27017/cinemaTest")
+    await mongoose.connect("mongodb://127.0.0.1:27017/cinemaTest")
     console.log("Test DB Connected!");
  })
 
