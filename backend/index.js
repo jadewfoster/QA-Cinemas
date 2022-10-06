@@ -21,7 +21,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/Cinema").then(() => {
 
 const server = app.listen(3001, () => {
     console.log("Server started successfully on port " + server.address().port);
-})
+}) 
 
 
 server.on("close", () => {
