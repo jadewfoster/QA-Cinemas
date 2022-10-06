@@ -12,13 +12,13 @@ let url = "localhost:3001/cinema";
 describe("discussionsAPI test", function(){
     before("Start Server", async function(){
         await mongoose.connection.close()
-        await mongoose.connect("mongodb://127.0.0.1:27017/cinemaTest")
+        await mongoose.connect("mongodb://127.0.0.1:27017/CinemaTest")
         console.log("Test DB Connected")     
     })    
  
     this.beforeAll("Test data", async function(){
         await DiscussionsModel.deleteMany({});
-        await DiscussionsModel.create({})
+        // await DiscussionsModel.create({})
     })
  
     it("/getAll", function(){

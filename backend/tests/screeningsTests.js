@@ -12,7 +12,7 @@ describe("screeningsAPI test", function() {
 
     before("Start Server", async function(){
         await mongoose.connection.close()
-        await mongoose.connect("mongodb://127.0.0.1:27017/cinemaTest")
+        await mongoose.connect("mongodb://127.0.0.1:27017/CinemaTest")
         console.log("Test DB Connected")
      
     })    
@@ -68,7 +68,7 @@ describe("screeningsAPI test", function() {
             chai.request(url).get("/getSeatsLeft").then( res => {
                 chai.expect(err).to.be.null;
                 chai.expect(res).to.have.status(200)
-                chai.expect(res.body).to.equal(c)
+                chai.expect(res.body).to.equal(sl)
             })        
         })
     })
@@ -81,7 +81,7 @@ describe("screeningsAPI test", function() {
         const update = {SeatsLeft:(body.SeatsLeft-=tickets)};
         const opts = { new: true };
         ScreeningsModel.findOneAndUpdate(filter, update, opts).then(d => {
-            chai.request(url).put("/put/:tickets").then( res => {
+            chai.request(url).put("/put/1").then( res => {
                 chai.expect(err).to.be.null;
                 chai.expect(res).to.have.status(200)
                 chai.expect(res.body).to.equal(d)
