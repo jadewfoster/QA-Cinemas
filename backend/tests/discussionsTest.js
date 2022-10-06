@@ -17,29 +17,65 @@ describe("discussionsAPI test", function(){
     })    
  
     this.beforeAll("Test data", async function(){
+        const testBody = [{"Movie name": "test1",
+        "Username": "TestName",
+        "Comment": "Great movie",
+        "Rating": 5},{"Movie name": "test2",
+        "Username": "TestName",
+        "Comment": "Great movie",
+        "Rating": 5},{"Movie name": "test3",
+        "Username": "TestName",
+        "Comment": "Great movie",
+        "Rating": 5},{"Movie name": "test4",
+        "Username": "TestName",
+        "Comment": "Great movie",
+        "Rating": 5},{"Movie name": "test5",
+        "Username": "TestName",
+        "Comment": "Great movie",
+        "Rating": 5},{"Movie name": "test6",
+        "Username": "TestName",
+        "Comment": "Great movie",
+        "Rating": 5}]
+
         await DiscussionsModel.deleteMany({});
-        // await DiscussionsModel.create({})
+        await DiscussionsModel.create(testBody)
     })
  
     it("/getAll", function(){
-        DiscussionsModel.find({}).then(ds => {
-            chai.request(url+"/discussionsTest").get("/getAll").then( res => {
- 
-                // chai.expect(err).to.be.null;
-                chai.expect(res).to.have.status(200)
-                chai.expect(res.body).to.equal(ds)
+        DiscussionsModel.find({}).then(testBody => {
+                chai.request(url+"/discussionsTest").get("/getAll").then( res => {
+     
+                    chai.expect(err).to.be.null;
+                    chai.expect(res).to.have.status(200)
+                    chai.expect(res.body).to.equal(testBody)
             })
         })
     })
  
     it("/getFive", function(){
-        DiscussionsModel.find({}).limit(5).then(ds => {
+        DiscussionsModel.find({}).limit(5).then(testBody => {
             chai.request(url+"/discussionsTest").get("/getFive").then(res =>{
-                chai.expect(res).to.have.status(200)
-                chai.expect(res.body).to.equal(ds)
+                chai.expect(err).to.be.null;
+                    chai.expect(res).to.have.status(200)
+                    chai.expect(res.body).to.equal(testBody.slice(0,4))
             })
     })
     })
+
+    it("/create", function(){
+        const testBody2 = {"Movie name": "test7",
+        "Username": "TestName",
+        "Comment": "Great movie",
+        "Rating": 5}
+        DiscussionsModel.create(testBody2).then(res => {
+            chai.request(url+"/discussionsTest").post("/create").then( res => {
+
+            chai.expect(err).to.be.null;
+            chai.expect(res).to.have.status(201);
+            chai.expect(JSON.stringify(res.body)).to.equal(JSON.stringify(testBody.push(testBody2)));
+        })
+    })
+})
 })
  
 after("Stop server", function(){
