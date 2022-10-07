@@ -17,22 +17,22 @@ describe("discussionsAPI test", function(){
     })    
  
     this.beforeAll("Test data", async function(){
-        const testBody = [{"Movie name": "test1",
+        const testBody = [{"MovieName": "test1",
         "Username": "TestName",
         "Comment": "Great movie",
-        "Rating": 5},{"Movie name": "test2",
+        "Rating": 5},{"MovieName": "test1",
         "Username": "TestName",
         "Comment": "Great movie",
-        "Rating": 5},{"Movie name": "test3",
+        "Rating": 5},{"MovieName": "test1",
         "Username": "TestName",
         "Comment": "Great movie",
-        "Rating": 5},{"Movie name": "test4",
+        "Rating": 5},{"MovieName": "test1",
         "Username": "TestName",
         "Comment": "Great movie",
-        "Rating": 5},{"Movie name": "test5",
+        "Rating": 5},{"MovieName": "test1",
         "Username": "TestName",
         "Comment": "Great movie",
-        "Rating": 5},{"Movie name": "test6",
+        "Rating": 5},{"MovieName": "test1",
         "Username": "TestName",
         "Comment": "Great movie",
         "Rating": 5}]
@@ -63,7 +63,7 @@ describe("discussionsAPI test", function(){
     })
 
     it("/create", function(){
-        const testBody2 = {"Movie name": "test7",
+        const testBody2 = {"MovieName": "test1",
         "Username": "TestName",
         "Comment": "Great movie",
         "Rating": 5}
@@ -72,7 +72,7 @@ describe("discussionsAPI test", function(){
 
             chai.expect(err).to.be.null;
             chai.expect(res).to.have.status(201);
-            chai.expect(JSON.stringify(res.body)).to.equal(JSON.stringify(testBody.push(testBody2)));
+            chai.expect(JSON.stringify(res.body)).to.equal(JSON.stringify(testBody.slice(0,4).push(testBody2)));
         })
     })
 })

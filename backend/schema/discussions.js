@@ -3,7 +3,7 @@ const{Schema, model} = mongoose;
 
 const DiscussionsSchema = new Schema({
 
-    "Movie name": String,
+    "MovieName": String,
     Username: String,
     Comment: String,
     Rating: Number
