@@ -1,0 +1,31 @@
+[
+    {
+        "UserType": "Adult",
+        "ScreenType":"Standard", "Price":7.50
+    },
+
+    {
+        "UserType":"Adult",
+        "ScreenType":"Director", "Price": 12.50
+    },
+
+    {
+        "UserType": "Child",
+        "ScreenType":"Standard", "Price":5
+    },
+
+    {
+        "UserType":"Child",
+        "ScreenType":"Director", "Price": 10
+    },
+
+    {
+        "UserType": "Concession",
+        "ScreenType":"Standard", "Price":6.75
+    },
+
+    {
+        "UserType":"Concession",
+        "ScreenType":"Director", "Price": 11.75
+    }
+]
