@@ -2,15 +2,14 @@ import React from 'react'
 import {Link, useMatch, useResolvedPath} from 'react-router-dom'
 import Logo from "../ManyPages/assets/Logo.jpeg";
 import List from "../../components/ManyPages/DropDown"
-import { Dropdown } from 'react-bootstrap';
 
 
 export default function Navbar() {
 
     return (
     <nav className="nav">
-        <div className="flex items-center justify-around">
-            <img src={Logo} alt="logo" display="in-line block" vertical-align="middle" height="50%" width="90%"/>
+        <div className="logo">
+            <img src={Logo} alt="logo" display="in-line block" margin-top= "-5px" height="90%" width="100%"/>
         </div>
 
         
@@ -18,7 +17,7 @@ export default function Navbar() {
         <li className="hover">
             <CustomLink to="/home">Home</CustomLink>  
         </li>
-        <List title= "Info"/>
+        <List title= "Dropdowns"/>
 
         <li>
         <CustomLink to="/bookings">My Bookings</CustomLink>

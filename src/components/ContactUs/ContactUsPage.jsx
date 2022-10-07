@@ -1,46 +1,92 @@
-import React from 'react'
-import { Form } from "react-bootstrap";
-import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import React, { useRef, useState } from 'react'
+import emailjs from '@emailjs/browser';
+import './contact.css'
 
-function ContactUs() {
-  return (
-    <>
-    <Form.Select aria-label="branches">
-    <option>Select a branch</option>
-    <option value="1">London(North)</option>
-    <option value="2">London(South)</option>
-    <option value="3">London(East)</option>
-  </Form.Select>
-    <Form>
-      <Row>
-        <Form.Group as={Col} controlId="formGridEmail">
-          <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
-        </Form.Group>
-
-        <Form.Group as={Col} controlId="formGridName">
-          <Form.Label>Name</Form.Label>
-          <Form.Control type="Enter name" placeholder="name" />
-        </Form.Group>
-      </Row>
-
-      <Form.Group controlId="comments">
-        <Form.Label>How can we help?</Form.Label>
-        <Form.Control type="Enter your comments" as="textarea" rows={5} />
-      </Form.Group>
 
 
 
 
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
-    </Form>
+function ContactUs() {
+  const [result, showResult] = useState(false);
+
+  const form = useRef();
+
+
+  const sendEmail = (e) => {
+    e.preventDefault();
     
-    </>
-  );
-}
+    const Result =() => {
+  return(
+    <p>Your message has been successfully sent. We will contact you</p>
+  )
+    }
+
+    emailjs.sendForm('service_d8vpl9c', 'template_0qzcbpo', form.current, 'wI6BFnpKPSReyP01s')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset();
+      showResult(true);
+  };
+
+  return (
+    <div className="container">
+    <form action="" onSubmit={sendEmail}>
+      <div className="formWord">
+        <h2>How can we help?</h2>
+        <span>Full Name*</span>
+        <br />
+        <input className='input100' type="text" name="fullName" required />
+        <br />
+        <span>Enter Email*</span>
+        <br />
+        <input className="input100" type="text" name="email" required />
+        <br />
+        <span>Subject*</span>
+        <br />
+        <input className="input100" type="text" name="subject" required />
+        <br />
+
+
+      </div>
+
+      <div className='formWord'>
+        <span>Message*</span>
+        <br/>
+        <textarea name="message" required></textarea>
+
+        <input type="submit" value="Submit"/>
+
+        <div className="row">{result ? <Result /> : null}</div>
+
+        <div>
+          <p>If you would prefer to speak to our support team, just call the relevant number below:
+            
+            
+            CUSTOMER SERVICE - Tel: 0123 456 789 or alternatively email us at qa.cinemas@qacinemas.com  </p>
+        </div>
+        <br />
+
+        <div>
+
+
+        </div>
+
+            
+
+        
+        
+        
+
+
+      </div>
+
+
+</form> </div> )
+};
+
 
 export default ContactUs;
