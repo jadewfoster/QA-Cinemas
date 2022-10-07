@@ -1,8 +1,5 @@
 import React from 'react'
 import './App.css';
-<<<<<<< HEAD
-import React from 'react';
-=======
 import Navbar from './components/ManyPages/Navbar';
 import { Route, Routes} from 'react-router-dom'
 import HomePage from './components/Home/HomePage';
@@ -12,9 +9,6 @@ import PlacesPage from './components/Places/PlacesPage';
 import WhatsOnPage from './components/WhatsOn/WhatsOnPage';
 import ComingSoon from './components/ComingSoon/ComingSoon';
 
-
-
->>>>>>> routing
 
 function App() {
 
