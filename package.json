@@ -8,8 +8,9 @@
     "@testing-library/user-event": "^13.5.0",
     "chai": "^4.3.6",
     "chai-http": "^4.3.0",
-    "common": "^0.2.5",
     "chalk": "^5.0.1",
+    "common": "^0.2.5",
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "mocha": "^10.0.0",
     "mongoose": "^6.6.4",
@@ -33,6 +34,7 @@
     "coverage": "nyc npm test --coverage",
     "eject": "react-scripts eject"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -75,5 +77,8 @@
   "bugs": {
     "url": "https://github.com/jadewfoster/QA-Cinemas/issues"
   },
-  "homepage": "https://github.com/jadewfoster/QA-Cinemas#readme"
+  "homepage": "https://github.com/jadewfoster/QA-Cinemas#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.21"
+  }
 }

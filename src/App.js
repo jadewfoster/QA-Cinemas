@@ -9,7 +9,6 @@ import PlacesPage from './components/Places/PlacesPage';
 import WhatsOnPage from './components/WhatsOn/WhatsOnPage';
 import ComingSoon from './components/ComingSoon/ComingSoon';
 
-
 function App() {
 
   return (
