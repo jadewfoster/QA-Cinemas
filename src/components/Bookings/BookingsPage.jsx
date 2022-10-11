@@ -7,13 +7,13 @@ const BookingsPage = () => {
     const[AllScreenings, setAllScreenings] = useState([]);
     const[movie, setMovie] = useState("");
     const[cinema, setCinema] = useState("");
+    const[visible, setVisible] = useState(false)
 
     //get all screenings from the collection
     const getAllScreenings = () => {        
         fetch("http://localhost:3001/cinema/screenings/getAll").then(res=>{
             res.json().then(data=>{
-                console.log(data);
-                    setAllScreenings(data).then(AllScreenings => AllScreenings)
+                setAllScreenings(data).then(AllScreenings => AllScreenings)
             }).catch(err=>{
                 console.log(err)
             })
@@ -33,9 +33,8 @@ const BookingsPage = () => {
         const filteredScreenings = AllScreenings.filter( ({CinemaName, MovieName}) =>
         CinemaName===cinema && MovieName===movie);
         setAllScreenings(filteredScreenings);
-        console.log(movie);
-        console.log(cinema);
-        console.log(AllScreenings);
+        //show the table of screenings on executing this function
+        setVisible(true);
     }
 
     const pageManager = useNavigate();
@@ -49,14 +48,6 @@ const BookingsPage = () => {
     return(
         <>
         <h1>Make a booking</h1>
-
-        {/* <button onClick={getAllScreenings}> Get all screenings </button>
-        <ol>
-            {AllScreenings.map( (screening, index) =>
-        <li key={index}>{screening.CinemaName},{screening.ScreenNum},
-        {screening.ScreenType},{screening.MovieName},
-        {screening.Date},{screening.Time},{screening.SeatsLeft}
-        </li>)}</ol> */}
 
         <form onSubmit={submitHandler}>
 
@@ -83,13 +74,23 @@ const BookingsPage = () => {
 
         </form>
 
-        <ol>
+        {visible && 
+        <table >
+            <tr>
+                <th>Screen type</th>
+                <th>Date</th>
+                <th>Time</th>                  
+            </tr>
+            
             {AllScreenings.map( (screening, index) =>
-        <li key={index}>{screening.CinemaName},{screening.ScreenNum},
-        {screening.ScreenType},{screening.MovieName},
-        {screening.Date},{screening.Time},{screening.SeatsLeft}
-        <button onClick={redirect}>Select screening</button>
-        </li>)}</ol>
+            <tr key={index}><td>{screening.ScreenType}</td>
+                 <td>{screening.Date}</td>
+                 <td>{screening.Time}</td>
+                 <td><button onClick={redirect}>Select screening</button></td>
+                 </tr>)}                 
+            
+        </table>
+            }
         </>
         
     );    
