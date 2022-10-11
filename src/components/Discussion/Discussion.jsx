@@ -25,7 +25,7 @@ const Discussion = () => {
     const postDiscussion = () =>{
         const newDiscussion = {"MovieName":movie, "Name":name, "Comment":comment, "Rating":rating}
         
-        //checking for profanity before posting 
+        //checking for profanity before posting n
         if (filter.isProfane(comment)) {
             return alert("Profanity is not allowed!");
        } else{
@@ -83,7 +83,7 @@ const Discussion = () => {
                 value={name} 
                 onChange={e => setName(e.target.value)}/>
         <label>Comment:</label>
-                <input name="comment" 
+                <textarea name="comment" 
                 type="text" 
                 value={comment} 
                 onChange={e => setComment(e.target.value)}/>
