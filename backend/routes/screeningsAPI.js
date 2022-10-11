@@ -18,7 +18,6 @@ router.get("/getDateAndTime", (req, res) => {
     })
 })
 
-
 //filter by cinema name, movie name and date => only gives back time
 router.get("/getScreeningTimes", (req,res) => {
     ScreeningsModel.find({$and: [ {CinemaName:req.body.CinemaName}, {MovieName:req.body.MovieName}, {Date:req.body.Date}]}, {_id:0, Time:1}).then(d => {
@@ -30,8 +29,6 @@ router.get("/getScreeningTimes", (req,res) => {
 
 //seats left - use URL 
 
-
-
 router.get("/getSeatsLeft", (req,res) => {
 
     ScreeningsModel.find({$and: [ {CinemaName:req.body.CinemaName}, {MovieName:req.body.MovieName}, {Date:req.body.Date}, {Time:req.body.Time}]}, {_id:0, SeatsLeft:1}).then(sl => {
@@ -40,7 +37,6 @@ router.get("/getSeatsLeft", (req,res) => {
         res.status(500).json(err)
     })
 })
-
 
 router.put('/put/:tickets', (req, res) => {
 
