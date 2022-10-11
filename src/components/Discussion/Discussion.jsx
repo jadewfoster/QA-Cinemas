@@ -26,7 +26,7 @@ const Discussion = () => {
         const newDiscussion = {"MovieName":movie, "Name":name, "Comment":comment, "Rating":rating}
         
         //checking for profanity before posting n
-        if (filter.isProfane(comment)) {
+        if (filter.isProfane(comment) || filter.isProfane(name)) {
             return alert("Profanity is not allowed!");
        } else{
         fetch("http://localhost:3001/cinema/discussions/create", {
@@ -34,7 +34,7 @@ const Discussion = () => {
             headers: {'Content-Type':'application/json'},
             body: JSON.stringify(newDiscussion)
         }).then(console.log(newDiscussion)).then(res=>{
-            res.json().then(newDiscussion).catch(err=>{
+            res.json().then(newDiscussion).then(alert("Comment added successfully!")).catch(err=>{
             console.log(err)
         })
     }
@@ -73,17 +73,17 @@ const Discussion = () => {
         <option value="Ticket to Paradise">Ticket to Paradise</option>
         </select><br/>
 
-        <button onClick={discussionsFilter}>Get latest discussions</button>
+        <button id="getDiscussionsButton" onClick={discussionsFilter}>Get latest discussions</button>
         </form>
 
         <form>
         <label> Name:</label>
-                <input name="name" 
+                <input id="name" name="name" 
                 type="text" 
                 value={name} 
                 onChange={e => setName(e.target.value)}/>
         <label>Comment:</label>
-                <textarea name="comment" 
+                <textarea id="comment" name="comment" 
                 type="text" 
                 value={comment} 
                 onChange={e => setComment(e.target.value)}/>
@@ -97,11 +97,11 @@ const Discussion = () => {
         <option value="4">4</option>
         <option value="5">5</option>
         </select>
-        <button onClick={postDiscussion}>Post your comment</button>
+        <button id="postDiscussionButton" onClick={postDiscussion}>Post your comment</button>
         </form>
 
         {visible && 
-        <table >
+        <table id = "discussionsTable">
             <tr>
                 <th>Name</th>
                 <th>Comment</th>

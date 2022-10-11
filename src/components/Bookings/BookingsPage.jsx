@@ -70,12 +70,12 @@ const BookingsPage = () => {
         <option value="Ticket to Paradise">Ticket to Paradise</option>
         </select><br/>
 
-        <button onClick={screeningsFilter}>Get screenings by cinema and movie</button>
+        <button id="filterButton" onClick={screeningsFilter}>Get screenings by cinema and movie</button>
 
         </form>
 
         {visible && 
-        <table >
+        <table id="screeningsTable">
             <tr>
                 <th>Screen type</th>
                 <th>Date</th>
@@ -86,7 +86,7 @@ const BookingsPage = () => {
             <tr key={index}><td>{screening.ScreenType}</td>
                  <td>{screening.Date}</td>
                  <td>{screening.Time}</td>
-                 <td><button onClick={redirect}>Select screening</button></td>
+                 <td><button id="chooseScreening" onClick={redirect}>Select screening</button></td>
                  </tr>)}                 
             
         </table>
