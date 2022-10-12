@@ -6,28 +6,52 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bad-words": "^3.0.4",
     "chai": "^4.3.6",
-    "express": "^4.18.1",
+    "chai-http": "^4.3.0",
+    "chalk": "^5.0.1",
+    "common": "^0.2.5",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "mocha": "^10.0.0",
-    "mongoose": "^6.6.3",
+    "mongoose": "^6.6.4",
     "node": "^18.10.0",
     "nodemon": "^2.0.20",
+    "nyc": "^15.1.0",
+    "reach": "^1.0.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^2.1.3",
-    "web-vitals": "^2.1.4"
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "^2.1.8",
+    "testing-library": "^0.0.2",
+    "web-vitals": "^2.1.4",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "mocha 'backend/tests/*.js'",
+    "coverage": "nyc npm test --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [
+            ".js",
+            ".jsx"
+          ]
+        }
+      ]
+    }
   },
   "browserslist": {
     "production": [
@@ -40,5 +64,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "QA Final Project - Creating a functional website for a cinema",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadewfoster/QA-Cinemas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadewfoster/QA-Cinemas/issues"
+  },
+  "homepage": "https://github.com/jadewfoster/QA-Cinemas#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.21"
   }
 }

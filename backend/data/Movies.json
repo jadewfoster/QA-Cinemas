@@ -1,0 +1,33 @@
+[
+    {"Name":"Don't Worry Darling",
+"Actors":["Harry Styles", "Olivia Wilde", "Florence Pugh", "Chris Pine", "Gemma Chan", "Sydney Chandler"],
+"Director":"Olivia Wilde",
+"Genre":"Thriller/Horror",
+"Release Date":"2022-09-23",
+"Duration":123,
+"Classification":"R"},
+
+{"Name":"Mrs. Harris Goes to Paris",
+"Actors":["Lesley Manville", "Alba Baptista", "Lucas Bravo", "Rose Williams", "Jason Isaacs", "Isabelle Huppert"],
+"Director":"Anthony Fabian",
+"Genre":"Comedy/Drama",
+"Release Date":"2022-09-30",
+"Duration":116,
+"Classification":"PG"},
+
+{"Name":"Smile",
+"Actors":["Sosie Bacon", "Caitlin Stasey", "Jessie T. Usher", "Kyle Gallner", "Rob Morgan", "Nick Arapoglou"],
+"Director":"Parker Finn",
+"Genre":"Horror/Psychological horror ",
+"Release Date":"2022-09-28",
+"Duration":115,
+"Classification":"R"},
+
+{"Name":"Ticket to Paradise",
+"Actors":["Julia Roberts", "George Clooney", "Kaitlyn Dever", "Maxime Bouttier", "Lucas Bravo", "Billie Lourd"],
+"Director":"Ol Parker",
+"Genre":"Romance/Comedy",
+"Release Date":"2022-09-20",
+"Duration":104,
+"Classification":"PG-13"}
+]

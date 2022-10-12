@@ -1,0 +1,13 @@
+.dropbtn {
+    background-color: #4CD3CA;
+    border: none;
+    font-size: large;
+    font-family: 'Bebas Neue';
+    justify-content: space-around;
+    display: flex;
+    padding-top: 0.25rem;
+}
+
+.dropbtn:hover {
+    background-color: #00FFFF;
+}
