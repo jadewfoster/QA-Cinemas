@@ -10,15 +10,14 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bad-words": "^3.0.4",
+    "bootstrap": "^5.2.2",
     "chai": "^4.3.6",
     "chai-http": "^4.3.0",
     "chalk": "^5.0.1",
     "common": "^0.2.5",
     "cors": "^2.8.5",
     "create-react": "^0.0.0",
-    
     "eslint-plugin-json": "^3.1.0",
-
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "express": "^4.18.2",
     "google-map-react": "^2.2.0",
@@ -48,42 +47,23 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-
     "extends": [
-
       "react-app",
-
       "react-app/jest"
-
     ],
-
     "rules": {
-
       "react/react-in-jsx-scope": "off",
-
       "react/jsx-filename-extension": [
-
         1,
-
         {
-
           "extensions": [
-
             ".js",
-
             ".jsx"
-
           ]
-
         }
-
       ]
-
     }
-
   },
-
-
   "browserslist": {
     "production": [
       ">0.2%",
@@ -110,5 +90,6 @@
   },
   "homepage": "https://github.com/jadewfoster/QA-Cinemas#readme",
   "devDependencies": {
-    "@types/react": "^18.0.21"  }
+    "@types/react": "^18.0.21"
+  }
 }
