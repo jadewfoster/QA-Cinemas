@@ -1,3 +1,4 @@
+ HEAD
 import React from 'react';
 import {Container, Table} from 'reactstrap';
 
@@ -71,3 +72,4 @@ const OpeningTimes = () => {
   );
 }
 export default OpeningTimes;
+
