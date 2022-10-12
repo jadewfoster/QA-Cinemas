@@ -110,7 +110,6 @@
   },
   "homepage": "https://github.com/jadewfoster/QA-Cinemas#readme",
   "devDependencies": {
-    "@types/react": "^18.0.21",
-    "eslint-plugin-jsx-a11y": "^6.6.1"
+    "@types/react": "^18.0.21"
   }
 }
