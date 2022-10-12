@@ -1,46 +1,62 @@
-import React from 'react'
-import { Form } from "react-bootstrap";
-import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import './contact.css'
 
-function ContactUs() {
+
+ const ContactUsPage = () => {
+
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_d8vpl9c', 'template_0qzcbpo', form.current, 'wI6BFnpKPSReyP01s')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
-    <>
-    <Form.Select aria-label="branches">
-    <option>Select a branch</option>
-    <option value="1">London(North)</option>
-    <option value="2">London(South)</option>
-    <option value="3">London(East)</option>
-  </Form.Select>
-    <Form>
-      <Row>
-        <Form.Group as={Col} controlId="formGridEmail">
-          <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
-        </Form.Group>
+    <div className='container'>
+    <form ref={form} onSubmit={sendEmail}>
+      <div className='formWord'>
 
-        <Form.Group as={Col} controlId="formGridName">
-          <Form.Label>Name</Form.Label>
-          <Form.Control type="Enter name" placeholder="name" />
-        </Form.Group>
-      </Row>
+<h2>How can we help?</h2>
+        <span>Full Name</span>
+        <br />
+        <input className='input100' type="text" name="fullName" required />
+        <br />
+        <span>Enter Email</span>
+        <br />
+        <input className="input100" type="text" name="email" required />
+        <br />
+        <span>Subject</span>
+        <br />
+        <input className="input100" type="text" name="subject" required />
+        <br />
 
-      <Form.Group controlId="comments">
-        <Form.Label>How can we help?</Form.Label>
-        <Form.Control type="Enter your comments" as="textarea" rows={5} />
-      </Form.Group>
+        <span>Message</span>
+        <br/>
+        <textarea name="message" required></textarea>
 
 
 
 
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
-    </Form>
+      <input type="submit" value="Send" />
+
+      </div>
+    </form>
+  
     
-    </>
+    
+   </div>
   );
-}
+  
+ };
 
-export default ContactUs;
+
+
+export default ContactUsPage
