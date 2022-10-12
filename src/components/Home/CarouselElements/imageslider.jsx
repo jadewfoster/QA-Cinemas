@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css";
 import "./carouselstyle.css"
 import React from 'react'
@@ -19,7 +19,7 @@ const ImageSlider = ({images}) => {
   return (
     <>
     <div className="tag">
-          <h1>Welcome to QA Cinemas!</h1>
+          <h1 id="header">Welcome to QA Cinemas!</h1>
     </div>
       <div className="imgslider">
         <Slider {...settings}>

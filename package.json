@@ -24,6 +24,9 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.1",
     "react-scripts": "^2.1.8",
+    "react-slick": "^0.29.0",
+    "reactstrap": "^9.1.4",
+    "slick-carousel": "^1.8.1",
     "testing-library": "^0.0.2",
     "web-vitals": "^2.1.4",
     "webfontloader": "^1.6.28"

@@ -1,5 +1,6 @@
 import images from "./CarouselElements/images";
-import ImageSlider from "./CarouselElements/imageslider";
+import ImageSlider from "./CarouselElements/imageslider.jsx";
+import React from "react";
 
 const Homepage = () => {
     document.title = "QA Cinemas"

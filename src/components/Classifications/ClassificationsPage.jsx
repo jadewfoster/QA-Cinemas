@@ -15,7 +15,7 @@ const ClassificationsPage = () => {
     return (
         <div id="dropped-box" className="container-fluid" align="center">
         <Container>
-            <h1>FILM CLASSIFICATIONS</h1>
+            <h1 id="header">FILM CLASSIFICATIONS</h1>
             <h3>Information for our viewers</h3>
             <p>
             Films shown in UK cinemas, or sold as Videos or DVDs must be given a rating by the British Board of Film Classification (BBFC) who assign each film a rating to help viewers decide whether a film is suitable for them or their children. There are a number of criteria involved in deciding the classification for a film such as: Theme, Language, Nudity, Sex, Violence, Imitable techniques, Horror and Drugs. For a detailed explanation of these criteria and the rating system please check the BBFC's web site. We have included a brief summary of the ratings below.

@@ -7,7 +7,7 @@ const AboutUsPage = () => {
     return (
         <div id="dropped-box" className="container-fluid" align="center">
             <Container>
-                <h1>ABOUT US</h1>
+                <h1 id="header">ABOUT US</h1>
                 <h3>Our Team</h3>
                 <p>
                     Our group, consisting of 4 people, were tasked with creating a fully functional website, including a booking and payment system, for the fictional company QA Cinemas.

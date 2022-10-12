@@ -47,7 +47,7 @@ const BookingsPage = () => {
 
     return(
         <>
-        <h1>Make a booking</h1>
+        <h1 id = "header">Make a booking</h1>
 
         <form onSubmit={submitHandler}>
 

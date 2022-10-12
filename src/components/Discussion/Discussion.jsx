@@ -60,7 +60,7 @@ const Discussion = () => {
 
     return(
         <>
-        <h1>Discussion</h1>
+        <h1 id="header">Discussion</h1>
 
         <form onSubmit={submitHandler}>
         <label htmlFor="movie">Choose a movie:</label>

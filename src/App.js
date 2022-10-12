@@ -11,6 +11,7 @@ import ComingSoon from './components/UpcomingReleases/UpcomingReleasesPage';
 import AboutUsPage from './components/AboutUs/AboutUsPage'
 import OpeningTimesPage from './components/OpeningTimes/OpeningTimesPage'
 import ClassificationsPage from './components/Classifications/ClassificationsPage'
+import UpcomingReleases from './components/UpcomingReleasesPage/UpcomingReleasesPage';
 
 function App() {
 
