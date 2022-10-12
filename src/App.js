@@ -7,29 +7,13 @@ import BookingsPage from './components/Bookings/BookingsPage';
 import Discussion from './components/Discussion/Discussion';
 import PlacesPage from './components/Places/PlacesPage';
 import WhatsOnPage from './components/WhatsOn/WhatsOnPage';
-<<<<<<< HEAD
 import ComingSoon from './components/UpcomingReleases/UpcomingReleasesPage';
 import AboutUsPage from './components/AboutUs/AboutUsPage'
 import OpeningTimesPage from './components/OpeningTimes/OpeningTimesPage'
 import ClassificationsPage from './components/Classifications/ClassificationsPage'
-<<<<<<< HEAD
-import UpcomingReleases from './components/UpcomingReleasesPage/UpcomingReleasesPage';
-=======
-=======
-import ComingSoon from './components/ComingSoon/ComingSoon';
 import ContactUs from './components/ContactUs/ContactUsPage';
-import AboutUsPage from './components/AboutUs/AboutUsPage'
-import ClassificationsPage from './components/Classifications/ClassificationsPage'
-import OpeningTimesPage from './components/OpeningTimes/OpeningTimesPage'
 import ScreensPage from './components/Screens/ScreensPage'
 import GettingThere from './components/Getting There/GettingThere'
-
-
-
-
-
->>>>>>> routing
->>>>>>> 23972f5b6084794ff85b361a70b24b338708b13a
 
 function App() {
 
@@ -41,11 +25,9 @@ function App() {
         <Route path="/home" element={<HomePage/>}/>
         <Route path="/bookings" element={<BookingsPage/>}/>
         <Route path="/discussion" element={<Discussion/>}/>
-<<<<<<< HEAD
         <Route path="/classifications" element={<ClassificationsPage/>}/>
         <Route path = "/aboutus" element = {<AboutUsPage/>}/>
         <Route path = "/openingtimes" element = {<OpeningTimesPage/>}/>
-=======
         <Route path="/contact-us" element={<ContactUs/>}/>
         <Route path="/about-us" element={<AboutUsPage/>}/>
         <Route path="/classifications" element={<ClassificationsPage/>}/>
@@ -56,7 +38,6 @@ function App() {
         <Route path="/upcoming-releases" element={<ComingSoon/>}/>
         <Route path='/screen' element={<ScreensPage/>}/>
         <Route path='/getting-there' element={<GettingThere/>}/>
->>>>>>> routing
 
         </Routes>
 

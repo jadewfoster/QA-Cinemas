@@ -1,10 +1,8 @@
-import {React, useState} from "react";
+import React, {useState} from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import Logo from "../ManyPages/assets/Logo.jpeg";
 import List from "../../components/ManyPages/DropDown";
 import Search from "../Searchbar/search";
-
-
 
 export default function Navbar() {
 

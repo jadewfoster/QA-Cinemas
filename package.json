@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "7": "^0.0.1",
     "@emailjs/browser": "^3.7.0",
     "@googlemaps/react-wrapper": "^1.1.35",
     "@testing-library/jest-dom": "^5.16.5",
@@ -12,17 +13,15 @@
     "chai": "^4.3.6",
     "chai-http": "^4.3.0",
     "chalk": "^5.0.1",
-<<<<<<< HEAD
     "common": "^0.2.5",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
-=======
     "create-react": "^0.0.0",
+    
     "eslint-plugin-json": "^3.1.0",
+
     "eslint-plugin-jsx-a11y": "^6.6.1",
-    "express": "^4.18.1",
+    "express": "^4.18.2",
     "google-map-react": "^2.2.0",
->>>>>>> routing
     "mocha": "^10.0.0",
     "mongoose": "^6.6.4",
     "node": "^18.10.0",
@@ -34,13 +33,9 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.1",
     "react-scripts": "^2.1.8",
-<<<<<<< HEAD
     "react-slick": "^0.29.0",
     "reactstrap": "^9.1.4",
     "slick-carousel": "^1.8.1",
-=======
-    "reactstrap": "^9.1.4",
->>>>>>> 23972f5b6084794ff85b361a70b24b338708b13a
     "testing-library": "^0.0.2",
     "web-vitals": "^2.1.4",
     "webfontloader": "^1.6.28"
@@ -53,23 +48,42 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+
     "extends": [
+
       "react-app",
+
       "react-app/jest"
+
     ],
+
     "rules": {
+
       "react/react-in-jsx-scope": "off",
+
       "react/jsx-filename-extension": [
+
         1,
+
         {
+
           "extensions": [
+
             ".js",
+
             ".jsx"
+
           ]
+
         }
+
       ]
+
     }
+
   },
+
+
   "browserslist": {
     "production": [
       ">0.2%",
@@ -96,6 +110,7 @@
   },
   "homepage": "https://github.com/jadewfoster/QA-Cinemas#readme",
   "devDependencies": {
-    "@types/react": "^18.0.21"
+    "@types/react": "^18.0.21",
+    "eslint-plugin-jsx-a11y": "^6.6.1"
   }
 }
