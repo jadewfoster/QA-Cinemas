@@ -3,6 +3,8 @@ text-align: center;
 font-family: 'Bebas Neue';
 letter-spacing: 1px;
 max-height: 50%;
+padding: 1.5rem;
+font-size: x-large;
 }
 
 input[type=text], select, textarea {

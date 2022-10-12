@@ -18,7 +18,11 @@ input[type=text] {
 
   .submit {
     font-family: 'bebas neue';
-    border: none;
+    border: 0.1rem;
+    border-color: black;
     cursor: pointer;
+    background-color: #4CD3CA;
+    font-size: large
+    ;
 
 }
