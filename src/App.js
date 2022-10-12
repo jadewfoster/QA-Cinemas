@@ -7,7 +7,10 @@ import BookingsPage from './components/Bookings/BookingsPage';
 import Discussion from './components/Discussion/Discussion';
 import PlacesPage from './components/Places/PlacesPage';
 import WhatsOnPage from './components/WhatsOn/WhatsOnPage';
-import ComingSoon from './components/ComingSoon/ComingSoon';
+import ComingSoon from './components/UpcomingReleases/UpcomingReleasesPage';
+import AboutUsPage from './components/AboutUs/AboutUsPage'
+import OpeningTimesPage from './components/OpeningTimes/OpeningTimesPage'
+import ClassificationsPage from './components/Classifications/ClassificationsPage'
 
 function App() {
 
@@ -22,6 +25,9 @@ function App() {
         <Route path="/coming-soon" element={<ComingSoon/>}/>
         <Route path="/bookings" element={<BookingsPage/>}/>
         <Route path="/discussion" element={<Discussion/>}/>
+        <Route path="/classifications" element={<ClassificationsPage/>}/>
+        <Route path = "/aboutus" element = {<AboutUsPage/>}/>
+        <Route path = "/openingtimes" element = {<OpeningTimesPage/>}/>
 
         </Routes>
 
