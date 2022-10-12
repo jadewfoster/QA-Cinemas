@@ -15,13 +15,10 @@ import ContactUs from './components/ContactUs/ContactUsPage';
 import ScreensPage from './components/Screens/ScreensPage'
 import GettingThere from './components/Getting There/GettingThere'
 
-<<<<<<< HEAD
-=======
 
 
 
 
->>>>>>> 8507d5e024e04defbdba5a46c46f242d2b34d30c
 function App() {
 
   return (
@@ -32,13 +29,10 @@ function App() {
         <Route path="/home" element={<HomePage/>}/>
         <Route path="/discussion" element={<Discussion/>}/>
         <Route path="/classifications" element={<ClassificationsPage/>}/>
-<<<<<<< HEAD
         <Route path = "/aboutus" element = {<AboutUsPage/>}/>
         <Route path = "/openingtimes" element = {<OpeningTimesPage/>}/>
-=======
         <Route path="/aboutus" element = {<AboutUsPage/>}/>
         <Route path="/openingtimes" element = {<OpeningTimesPage/>}/>
->>>>>>> 8507d5e024e04defbdba5a46c46f242d2b34d30c
         <Route path="/contact-us" element={<ContactUs/>}/>
         <Route path="/places" element={<PlacesPage/>}/>
         <Route path="/listings" element={<WhatsOnPage/>}/>

@@ -31,8 +31,14 @@ export default function Navbar() {
         <li>
           <CustomLink to="/discussion">Discussion</CustomLink>
         </li>
+
+        <li>
+          <Search/>
+        </li>
         
         </ul>
+
+
       </nav>
    );
 }
