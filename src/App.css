@@ -5,21 +5,18 @@ body {
 
 
 .nav {
+    flex-direction: column;
     background-color:#4CD3CA;
     color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     gap: 2rem;
-    padding: 0 1rem;
     font-family: 'Bebas Neue', cursive;
-    font-size: large;
+    font-size: x-large;
     cursor: pointer;
-    font-weight: 500;
     letter-spacing: 0.5px;
     line-height: 18px;
-    
-
+    justify-content: space-around;
+    display: flex;
+    padding: 0 1rem;
 }
 
 
@@ -34,6 +31,7 @@ body {
     list-style: none;
     gap: 1rem;
     cursor: pointer;
+    align-items: center;
     
     
 }
@@ -48,16 +46,18 @@ body {
     padding: 0.25rem;
 
 }
-.nav li.active {
-    background-color: #4cd3ca86;
 
-}
-.nav li:hover{
-    background-color: #4cd3ca86;
-}
 
-.nav div logo {
+
+
+.logo {
+
     margin-top: -5px;
-    max-width: 100px;
-    max-height: 45px;
+    max-width: 50%;
+    max-height: 50%;
+    display: flex;
+
+
+
 } 
+

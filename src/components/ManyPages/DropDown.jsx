@@ -18,7 +18,7 @@ export default function List(){
       Info
     </DropdownToggle>
 
-    <DropdownMenu autoClose='outside' className='menu'>
+    <DropdownMenu  className='menu'>
       <DropdownItem> 
        <CustomLink to ="/about-us">
       About Us

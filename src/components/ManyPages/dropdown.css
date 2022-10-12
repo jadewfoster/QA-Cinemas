@@ -5,7 +5,7 @@
 .dropbtn {
     background-color: #4CD3CA;
     border: none;
-    font-size: large;
+    font-size: x-large;
     font-family: 'Bebas Neue';
     justify-content: space-around;
     display: flex;
@@ -26,7 +26,7 @@
 
 .menu:hover {
     background-color: #4cd3cabe;
-    padding-top: 00.5px;
+    padding-top: 10px;
    
 
 
