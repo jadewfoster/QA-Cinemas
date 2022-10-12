@@ -1,12 +1,12 @@
 import React from "react";
 import { Container } from "reactstrap";
 import "./places.css";
-import pic from './cafe_tpt-central'
-import pic1 from './ducksoup-central'
-import pic2 from './chishuru-south'
-import pic3 from './persepolis-south.24'
+import pic from './cafe_tpt-central.avif'
+import pic1 from './ducksoup-central.avif'
+import pic2 from './chishuru-south.avif'
+import pic3 from './persepolis-south.24.avif'
 import pic4 from './mangal ii - north.avif'
-import pic5 from './tankatsu - north.49'
+import pic5 from './tankatsu - north.49.avif'
 
 
 
