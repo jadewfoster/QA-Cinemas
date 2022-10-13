@@ -1,5 +1,5 @@
-import React, { useRef } from "react";
-// import emailjs from "emailjs" //need to look at this 
+import React from "react";
+import emailjs from 'emailjs-com'
 import "./contact.css";
 
 const ContactUsPage = () => {
@@ -13,12 +13,13 @@ const ContactUsPage = () => {
       .sendForm(
         "service_d8vpl9c",
         "template_0qzcbpo",
-        form.current,
+        e.target,
         "wI6BFnpKPSReyP01s"
       )
       .then(
         (result) => {
           console.log(result.text);
+          window.location.reload();
         },
         (error) => {
           console.log(error.text);
@@ -28,7 +29,7 @@ const ContactUsPage = () => {
 
   return (
     <div className="container">
-      <form ref={form} onSubmit={sendEmail}>
+      <form onSubmit={sendEmail}>
         <div className="formWord">
           <h2>How can we help?</h2>
           <span>Full Name</span>
