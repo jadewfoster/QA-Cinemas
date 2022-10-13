@@ -68,12 +68,14 @@ const AboutUsPage = () => {
                 <br/>Before each sprint the scrum team will hold a sprint planning event where they agree the sprint goal and plan the backlog (the list of tasks that need to be done)
                 <br/>The team will meet every morning in a meeting called the “stand up meeting” or “daily scrum”  which lasts approximately 10-15 minutes. In this they discuss what they achieved yesterday as well as what their plan is for that day and any problems they may have had.
                 </p>
+                <br/>
                 <h4>Scrum Roles</h4>
                 <p>Product Owner: organises the tasks into the product backlog.
                 <br/>Developers: the ones who build/develop the product.
                 <br/>Scrum master: keeps the scrum team organised, leads the daily scrum.
                 </p>
-                <h4>How we used Scrum to build QA Cinema's website</h4>
+                <br/>
+                <h4>How We Used Scrum in Building QA Cinema's Website</h4>
                 <p>We began by assigning the scrum roles within the team: 
                 <br/>Scrum master and developer: Isabella O’Hara
                 <br/>Product Owner and developer: Mariana Nikolova

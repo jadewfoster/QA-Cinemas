@@ -19,8 +19,8 @@ const ImageSliderScreensStd = ({screensImagesStd}) => {
   return (
     <>
     <div className="tag">
-          <h2 id="header" className="subtitle">Our Standard Screens</h2>
-          <p className="body">For ever movie lover</p>
+          <h2 id="header" className="screenname">Our Standard Screens</h2>
+          <p className="body">For every movie lover</p>
     </div>
       <div className="imgslider">
         <Slider {...settings}>

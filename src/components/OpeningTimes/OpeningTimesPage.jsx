@@ -5,8 +5,8 @@ const OpeningTimes = () => {
   document.title = "Opening Times"
   
   return (
-    <div id="dropped-box" >
-      <Container id="open">
+    <div id="dropped-box" align="center">
+      <Container id="open" align="center">
         <h1 className="title">OPENING TIMES</h1>
         <br />
 
@@ -17,9 +17,9 @@ const OpeningTimes = () => {
 
       </Container>
 
-      
-      <div id="dropped-box" className="centerbody">
-            <Table size="sm" borderless id="opening-times-table">
+      <div align="center">
+      <div id="dropped-box" className="centerbody" align="center">
+            <Table size="sm" borderless id="opening-times-table" align="center">
                 <thead>
                 <tr>
                     <th id="head">DAY</th>
@@ -57,6 +57,7 @@ const OpeningTimes = () => {
                 </tr>
                 </tbody>
             </Table>
+            </div>
             </div>
 </div>
 
