@@ -21,13 +21,10 @@ export default function Navbar() {
 
       <ul>
         <li className="hover">
-          <CustomLink to="/home">Home</CustomLink>
+          <CustomLink to="/">Home</CustomLink>
         </li>
         <List title="Dropdowns" />
 
-        <li>
-          <CustomLink to="/bookings">My Bookings</CustomLink>
-        </li>
         <li>
           <CustomLink to="/discussion">Discussion</CustomLink>
         </li>
