@@ -48,11 +48,11 @@ const BookingsPage = () => {
 
     return(
         <>
-        <h1 id = "header">Make a booking</h1>
+        <h1 id = "header" className="title">Make a booking</h1>
 
         <form onSubmit={submitHandler}>
 
-        <label htmlFor="cinema">Choose a cinema:</label>
+        <label htmlFor="cinema" className="bodybold">Choose a cinema:</label>
         <select name="cinema" value={cinema} id="cinema" 
         onChange={e => setCinema(e.target.value)}>
         <option value="default">Please choose a cinema:</option>
@@ -61,7 +61,7 @@ const BookingsPage = () => {
         <option value="LondonNorth">London North</option>
         </select><br/>
 
-        <label htmlFor="movie">Choose a movie:</label>
+        <label htmlFor="movie" className="bodybold">Choose a movie:</label>
         <select name="movie" id="movie" value = {movie}
         onChange={e => setMovie(e.target.value)}>
         <option value="default">Please choose a movie:</option>
@@ -70,9 +70,10 @@ const BookingsPage = () => {
         <option value="Smile">Smile</option>
         <option value="Ticket to Paradise">Ticket to Paradise</option>
         </select><br/>
-
-        <button id="filterButton" onClick={screeningsFilter}>Get screenings by cinema and movie</button>
-
+        <br/>
+        <button id="filterButton" onClick={screeningsFilter} className="dscnSubmitBtn">Get screenings by cinema and movie</button>
+        <br/>
+        <br/>
         </form>
 
         {visible && 

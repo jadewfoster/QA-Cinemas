@@ -5,9 +5,10 @@ const UpcomingReleasesPage = () => {
 
     return (
         <div id="dropped-box" className="container-fluid" align="left">
-        <h1>Upcoming Releases</h1>
-        <h2>Coming To A Cinema Near You</h2>
-        <h3 align="left">Black Panther: Wakanda Forever</h3>
+        <h1 className="title">Upcoming Releases</h1>
+        <h2 className="screenname">Coming To A Cinema Near You</h2>
+        <br/>
+        <h3 className="smallsubtitle">Black Panther: Wakanda Forever</h3>
         <br></br>
         <img src="https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg" height="400px" width = "300px" align = "left" alt="Black Panther"></img>
         <br></br>
@@ -34,7 +35,7 @@ const UpcomingReleasesPage = () => {
         <br></br>
         <br></br>
 
-        <h3 align="left"> Avatar 2: The Way of the Water</h3>
+        <h3 align="left" className="smallsubtitle"> Avatar 2: The Way of the Water</h3>
         <br></br>
         <img src="https://m.media-amazon.com/images/M/MV5BMWFmYmRiYzMtMTQ4YS00NjA5LTliYTgtMmM3OTc4OGY3MTFkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" height="400px" width = "300px" align = "left" alt="Avatar"></img>
         <br></br>

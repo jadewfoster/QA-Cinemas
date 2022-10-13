@@ -8,7 +8,7 @@ export default function Avatar() {
   return (
     <>
       <div align="center" style={{ fontFamily: "bebas neue" }}>
-        <h1>Avatar: the way of water</h1>
+        <h1>Avatar: the Way of Water</h1>
         <h3>
           Description: Jake Sully lives with his newfound family formed on the
           planet of Pandora. Once a familiar threat returns to finish what was
