@@ -13,17 +13,17 @@ const WhatsOnPage = () => {
       </div>
       <div display="column" align="center" width="50px" height="50px">
         <div className="moviebox">
-          <a href="./DWD.jsx">
+          <a href="/dworrydarling">
             <img src={pic} className="img" alt="dwd" />
           </a>
         </div>
         <div className="moviebox">
-          <a href="./BT.jsx">
+          <a href="./bullettrain">
             <img src={pic2} className="img" alt="bt" />
           </a>
         </div>
         <div className="moviebox">
-          <a href="./Avatar.jsx">
+          <a href="./avatar">
             <img src={pic3} className="img" alt="avatar" />
           </a>
         </div>
