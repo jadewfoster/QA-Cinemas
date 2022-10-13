@@ -40,7 +40,7 @@
     "webfontloader": "^1.6.28"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "build": "react-scripts build ",
     "test": "mocha 'backend/tests/*.js'",
     "coverage": "nyc npm test --coverage",

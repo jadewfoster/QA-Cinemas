@@ -42,7 +42,7 @@ const BookingsPage = () => {
     //redirecting to Payment page
     const redirect = (e) => {
         e.preventDefault();
-        pageManager("/home");
+        pageManager("/payment");
     }
 
     return(
