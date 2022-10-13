@@ -20,20 +20,20 @@ export default function List() {
     `}
       </style>
       <DropdownButton size="xxl" variant="flat" title="info" className="dropbtn">
-        <Dropdown.Item href="/aboutus">About Us</Dropdown.Item>
+        <Dropdown.Item href="/about-us">About Us</Dropdown.Item>
         <Dropdown.Item href="/contact-us">Contact Us</Dropdown.Item>
         <Dropdown.Item href="/classifications">Classifications</Dropdown.Item>
       </DropdownButton>
 
       <DropdownButton size="xxl"  variant="flat" title="Our Cinemas"className="dropbtn">
-        <Dropdown.Item href="/places">Places to go</Dropdown.Item>
+        <Dropdown.Item href="/places">Places To Go</Dropdown.Item>
         <Dropdown.Item href="getting-there">Getting there</Dropdown.Item>
         <Dropdown.Item href="/openingtimes">Opening Times</Dropdown.Item>
-        <Dropdown.Item href="/screen">Screen info</Dropdown.Item>
+        <Dropdown.Item href="/screen">Screen Info</Dropdown.Item>
       </DropdownButton>
       <DropdownButton size="xxl" variant="flat" title="What's On">
         <Dropdown.Item href="/listings">Listings Gallery</Dropdown.Item>
-        <Dropdown.Item href="/book-your-ticket">To Book</Dropdown.Item>
+        <Dropdown.Item href="/book-your-ticket">Book Your Ticket</Dropdown.Item>
       </DropdownButton>
     </>
   );
