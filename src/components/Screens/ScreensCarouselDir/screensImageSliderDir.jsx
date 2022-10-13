@@ -20,7 +20,7 @@ const ImageSliderScreensDir = ({screensImagesDir}) => {
   return (
     <>
     <div className="tag">
-          <h2 id="header">Our Director Screens</h2>
+          <h2 id="header" classname="subtitle">Our Director Screens</h2>
           <p>Our director screens provide that little bit extra for an unbelievable night out</p>
     </div>
       <div className="imgslider">

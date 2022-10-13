@@ -13,19 +13,26 @@ const ClassificationsPage = () => {
     document.title = "Classifications"
 
     return (
-        <div id="dropped-box" className="container-fluid" align="center">
+        <div id="dropped-box" className="body" align="center">
         <Container>
-            <h1 id="header">FILM CLASSIFICATIONS</h1>
-            <h3>Information for our viewers</h3>
+            <h1 id="header" className="title">FILM CLASSIFICATIONS</h1>
+            <br></br>
+            <h3>Information For Our Customers</h3>
+            <br></br>
             <p>
-            Films shown in UK cinemas, or sold as Videos or DVDs must be given a rating by the British Board of Film Classification (BBFC) who assign each film a rating to help viewers decide whether a film is suitable for them or their children. There are a number of criteria involved in deciding the classification for a film such as: Theme, Language, Nudity, Sex, Violence, Imitable techniques, Horror and Drugs. For a detailed explanation of these criteria and the rating system please check the BBFC's web site. We have included a brief summary of the ratings below.
+            Films shown in UK cinemas, or sold as Videos or DVDs must be given a rating by the British Board of Film Classification (BBFC) who assign each film a rating to help viewers decide whether a film is suitable for them or their children. 
+            <br></br>
+            <br></br>
+            There are a number of criteria involved in deciding the classification for a film such as: Theme, Language, Nudity, Sex, Violence, Imitable techniques, Horror and Drugs. For a detailed explanation of these criteria and the rating system please check the BBFC's web site. We have included a brief summary of the ratings below.
             <br></br>
             <br></br>
             There are occasionally extra cautionary notes added to a film to help parents or guardians decide on the suitability of a film.
             </p>
+            <br></br>
 
-            <h4>Rating Guidelines</h4>
-            <div id="dropped-box" className="container-fluid">
+            <h3>Rating Guidelines</h3>
+            <br></br>
+            <div id="dropped-box" className="body">
                 <Table id="open-table" borderless striped >
                     <tbody align="center">
                         <tr >

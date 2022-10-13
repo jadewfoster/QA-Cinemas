@@ -18,8 +18,8 @@ const ImageSlider = ({images}) => {
   };
   return (
     <>
-    <div className="title">
-          <h1 id="header">Welcome to QA Cinemas!</h1>
+    <div>
+          <h1 id="header" className="title">Welcome to QA Cinemas!</h1>
     </div>
       <div className="imgslider">
         <Slider {...settings}>
