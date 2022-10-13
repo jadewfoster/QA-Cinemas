@@ -4,7 +4,6 @@ import "./contact.css";
 
 const ContactUsPage = () => {
   document.title = "Contact Us"
-  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
