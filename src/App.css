@@ -4,11 +4,26 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+.centerbody{
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align:"center";
+    align-self: center;
+}
+
 .title{
     font-family: 'Bebas Neue', cursive;
     font-size: 80px;
     color: black;
     text-decoration-line: underline;
+    text-align:center;
+}
+
+.subtitle{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: black;
+    text-align:left;
 }
 
 
@@ -103,4 +118,5 @@ body {
     font-weight: lighter;
     text-decoration: none;
   }
+
 
