@@ -3,7 +3,8 @@ import { useState } from 'react';
 import {useNavigate} from "react-router-dom";
 
 const BookingsPage = () => {
-
+    document.title = "Bookings"
+    
     const[AllScreenings, setAllScreenings] = useState([]);
     const[movie, setMovie] = useState("");
     const[cinema, setCinema] = useState("");

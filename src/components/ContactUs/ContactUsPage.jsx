@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import "./contact.css";
 
 const ContactUsPage = () => {
+  document.title = "Contact Us"
   const form = useRef();
 
   const sendEmail = (e) => {

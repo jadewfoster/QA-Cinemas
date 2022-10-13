@@ -6,7 +6,7 @@ import pic2 from './London-North.png'
 import pic3 from './London-South.png'
 
 const GettingThere = () => {
-  document.title = "Getting there"
+  document.title = "Getting There"
   
   return (
     <div id="dropped-box" className="container-fluid">

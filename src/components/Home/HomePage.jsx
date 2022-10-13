@@ -8,7 +8,7 @@ const Homepage = () => {
         <div id="homepage-div" align="center">
             <ImageSlider images={images}/>
             <br></br>
-            <div id="homepage-info">
+            <div id="homepage-info" className="body">
                     <p>
                         To browse our newest movies, check out the "What's On" page to view our showtimes and make a booking.
                     </p>
