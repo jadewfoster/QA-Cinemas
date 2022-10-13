@@ -123,4 +123,10 @@ body {
     height:50%;
   }
 
+  .screenname{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: black;
+    text-align:"center"
+  }
 
