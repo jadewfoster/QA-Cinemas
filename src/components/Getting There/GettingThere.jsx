@@ -11,19 +11,16 @@ const GettingThere = () => {
   return (
     <div id="dropped-box" className="container-fluid">
       <Container id="open">
-        <h1>Getting There</h1>
+        <h1 className = "title">Getting There</h1>
         <br />
 
         <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    Select your cinema
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="/#">Central London</a></li>
-    <li><a class="dropdown-item" href="/#">North London</a></li>
-    <li><a class="dropdown-item" href="/#">South London</a></li>
-  </ul>
+  <h3>
+    Select your cinema:
+  </h3>
 </div>
+<br/>
+<br/>
 
 <div className='branch-wrapper'>
   <div  className='branch-link'>
@@ -36,8 +33,13 @@ const GettingThere = () => {
 
     <div className='branch-thumbnail'>
       <div className='branch-image'>
+      <a href="/londoncentral">
         <img src={pic}>
       </img>
+      </a>
+      <br/>
+      <br/>
+      <br/>
 </div>
 </div>
 
@@ -55,8 +57,13 @@ const GettingThere = () => {
 
     <div className='branch-thumbnail'>
       <div className='branch-image'>
+      <a href="/londonnorth">
         <img src={pic2}>
       </img>
+      </a>
+      <br/>
+      <br/>
+      <br/>
 </div>
 </div>
 
@@ -72,8 +79,12 @@ const GettingThere = () => {
 
     <div className='branch-thumbnail'>
       <div className='branch-image'>
+      <a href="/londonsouth">
         <img src={pic3}>
       </img>
+      </a>
+      <br/>
+      <br/>
 </div>
 </div>
 

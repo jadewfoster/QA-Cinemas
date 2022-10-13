@@ -9,3 +9,10 @@
     width: min-content;
     height: min-content;
 }
+
+.branchname{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: black;
+    text-align:center;
+}

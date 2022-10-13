@@ -28,6 +28,7 @@ const ContactUsPage = () => {
 
   return (
     <div className="container">
+      <h1 id="header" className="title">Contact Us</h1>
       <form onSubmit={sendEmail}>
         <div className="formWord">
           <h2>How can we help?</h2>
@@ -52,9 +53,9 @@ const ContactUsPage = () => {
         </div>
 
         <div>
-          <p className="formWord" padding="1.5rem">
+          <p className="bottomWord" padding="1.5rem">
             If you would prefer to speak to our support team, just call the
-            relevant number below: CUSTOMER SERVICE - Tel: 0123 456 789 or
+            relevant number below: <br/> CUSTOMER SERVICE - Tel: 0123 456 789<br/> or
             alternatively email us at qa.cinemas@qacinemas.com{" "}
           </p>
         </div>

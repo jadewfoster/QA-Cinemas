@@ -5,28 +5,20 @@ const OpeningTimes = () => {
   document.title = "Opening Times"
   
   return (
-    <div id="dropped-box" className="container-fluid">
+    <div id="dropped-box" >
       <Container id="open">
-        <h1>OPENING TIMES</h1>
+        <h1 className="title">OPENING TIMES</h1>
         <br />
 
         
-        <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    Select your cinema
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="#">Central London</a></li>
-    <li><a class="dropdown-item" href="#">North London</a></li>
-    <li><a class="dropdown-item" href="#">South London</a></li>
-  </ul>
+        <div className="centerbody">
+  <h3>Here are the opening times for our cinemas:</h3>
 </div>
-
 
       </Container>
 
       
-      <div id="dropped-box" className="container-fluid" align="center">
+      <div id="dropped-box" className="centerbody">
             <Table size="sm" borderless id="opening-times-table">
                 <thead>
                 <tr>

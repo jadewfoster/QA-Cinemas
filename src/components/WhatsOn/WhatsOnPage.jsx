@@ -2,7 +2,7 @@ import React from "react";
 import pic from "./dontworry.jpeg";
 import pic2 from "./bullettrain.jpeg";
 import pic3 from "./avatar.jpeg";
-import pic4 from  "./Lyle.jpeg"
+import pic4 from "./lyle.jpeg"
 import "./whatson.css";
 
 const WhatsOnPage = () => {

@@ -20,11 +20,12 @@ import DWD from './components/WhatsOn/DWD';
 import Avatar from './components/WhatsOn/Avatar';
 import BT from './components/WhatsOn/BT';
 import Lyle from './components/WhatsOn/Lyle';
-
-
-
-
-
+import MrsHarris from './components/WhatsOn/MrsHarris';
+import Smile from './components/WhatsOn/Smile';
+import TicketToParadise from './components/WhatsOn/TicketToParadise';
+import LondonCentral from './components/Getting There/LondonCentral';
+import LondonNorth from './components/Getting There/LondonNorth';
+import LondonSouth from './components/Getting There/LondonSouth';
 
 function App() {
 
@@ -51,7 +52,12 @@ function App() {
         <Route path='/bullettrain' element = {<BT/>}/>
         <Route path='/avatar' element = {<Avatar/>}/>
         <Route path='/lyle' element = {<Lyle/>}/>
-        
+        <Route path='/smile' element = {<Smile/>}/>
+        <Route path='/mrsharris' element = {<MrsHarris/>}/>
+        <Route path='/tickettoparadise' element = {<TicketToParadise/>}/>
+        <Route path='/londoncentral' element = {<LondonCentral/>}/>
+        <Route path='/londonnorth' element = {<LondonNorth/>}/>
+        <Route path='/londonsouth' element = {<LondonSouth/>}/>
 
         </Routes>
 

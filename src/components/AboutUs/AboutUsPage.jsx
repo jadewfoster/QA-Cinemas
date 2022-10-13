@@ -17,7 +17,7 @@ const AboutUsPage = () => {
                     Over our 10 weeks of training with QA we have learnt many skills. In this project, we specifically used our skills in React, MongoDB, Javascript, Node, Express, Mocha and Chai.
                 </p>
                 <br/>
-                <h4>Team Member Details</h4>
+                <h3>Team Member Details</h3>
                 <div id="dropped-box" className="body">
                     <Table id="open-table" borderless striped >
                         <thead align="center">
@@ -62,6 +62,33 @@ const AboutUsPage = () => {
                     </Table>
                 </div>
                 <br />
+                <h3 align="center">Scrum Methodology</h3>
+                <p><a id="scrum-link" href="https://www.scrum.org/resources/what-is-scrum">Scrum</a> is a framework part of the Agile methodology. It is used to facilitate project management and organisation.
+                <br/>Scrum is designed for teams of 10 or fewer members. These members have their work broken down into separate goals that are to be completed with in certain time-blocks. These time blocks are known as sprints. A sprint typically lasts about 2 weeks and are rarely longer than a month.  <br/>
+                <br/>Before each sprint the scrum team will hold a sprint planning event where they agree the sprint goal and plan the backlog (the list of tasks that need to be done)
+                <br/>The team will meet every morning in a meeting called the “stand up meeting” or “daily scrum”  which lasts approximately 10-15 minutes. In this they discuss what they achieved yesterday as well as what their plan is for that day and any problems they may have had.
+                </p>
+                <h4>Scrum Roles</h4>
+                <p>Product Owner: organises the tasks into the product backlog.
+                <br/>Developers: the ones who build/develop the product.
+                <br/>Scrum master: keeps the scrum team organised, leads the daily scrum.
+                </p>
+                <h4>How we used Scrum to build QA Cinema's website</h4>
+                <p>We began by assigning the scrum roles within the team: 
+                <br/>Scrum master and developer: Isabella O’Hara
+                <br/>Product Owner and developer: Mariana Nikolova
+                <br/>Developer: Fatima Sheikhnur
+                <br/>Developer: Jade Foster
+                </p>
+                <p>We then held our sprint planning meeting to develop the product backlog and organise the task for our first sprint and decided what should be in the second sprint.
+                <br/>We chose to have 2 sprints each lasting 1 week. The first sprint was for front and back-end development as well as back-end testing and the second was solely for working on and testing the front end.
+                </p>
+                <p>
+                We began each day with a daily scrum/stand up meeting where we discussed what each of us had achieved the previous day as well as our plans for the coming day.
+                <br/>At the end of each sprint we held a sprint review meeting where we discussed what we achieved in that sprint in relation to the product back log and our sprint goal and if anything needed to be carried over into the next sprint.
+                </p>
+                <p>Overall we found using Scrum to be very beneficial for us when developing this site as it allowed us to easily assign and delegate tasks allowing us to stay on schedule and complete the project on time. Having the daily scrum meetings enabled us to be aware of what each of us were doing meaning there were never any miscommunication issues over individual tasks. Having the product backlog outlined from the start meant we knew how to reach the MVP for this website and so could prioritise our tasks to reach this.</p>
+               
             </Container>
         </div>
     );
