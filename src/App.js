@@ -15,6 +15,7 @@ import ClassificationsPage from './components/Classifications/ClassificationsPag
 import ScreensPage from './components/Screens/ScreensPage'
 import GettingThere from './components/Getting There/GettingThere'
 import Footer from './components/ManyPages/Footer';
+import Payment from './components/Payments/Payment';
 
 
 
@@ -40,7 +41,7 @@ function App() {
         <Route path="/upcoming-releases" element={<ComingSoon/>}/>
         <Route path='/screen' element={<ScreensPage/>}/>
         <Route path='/getting-there' element={<GettingThere/>}/>
-        {/* <Route path='/payment' element = {<Payment/>}/> */}
+        <Route path='/payment' element = {<Payment/>}/>
 
         </Routes>
 
