@@ -11,7 +11,7 @@ import pic5 from './tankatsu - north.49'
 
 
 const PlacesPage = () => {
-  document.title = "Places Nearby";
+  document.title = "Nearby Places";
 
   return (
     
