@@ -17,20 +17,20 @@ const PlacesPage = () => {
     
     <div className="container-fluid" align="center">
       <Container>
-        <h1>Places to go</h1>
-        <h3>
+        <h1 className="title">Places to go</h1>
+        <h5>
           Doing dinner and a film? These are the best spots to eat in (pre or
           post popcorn) near our go-to cinemas.
-        </h3>
+        </h5>
         <br/>
         <p>Dinner and a movie is a time-honored tradition. A night of great food and entertainment is a foolproof way to treat yourself. Below, we have selected some amazing restaurants/bars near our branches,
            so even if the movie is terrible, the night is still salvagable.  </p>
         <div align="left">
           <div>
+          <br/><br/>
+            <h1 className="subtitle">London Central</h1>
 
-            <h1>London Central</h1>
-
-
+            <br/><br/>
             <h2>Cafe TPT</h2>
 
 
@@ -40,6 +40,8 @@ const PlacesPage = () => {
             a late-night debrief of the movie alongside a char siu pork on rice is the right way to visit one of our cinemas. A late night Cantonese spot you can never go wrong with - we recommend the whopper, cheesy bechamel-covered, Macau-style baked pork chop.</p>
             <button style={{fontFamily:'bebas neue'}} a href="https://www.google.com/maps/place/Cafe+TPT/@51.5110664,-0.1407725,15z/data=!3m1!4b1!4m5!3m4!1s0x487604d24ab1661b:0xb3eaf5ec47a9945d!8m2!3d51.5110719!4d-0.1319995">Get Directions</button>
 
+            <br/><br/>
+            <br/><br/>
             <h2>Ducksoup</h2>
 
             <img src={pic1} className="img" alt="ducksoup"></img>
@@ -49,9 +51,9 @@ const PlacesPage = () => {
             </div>
 
             <div>
-
-            <h1>London South</h1>
-
+            <br/><br/>
+            <h1 className="subtitle">London South</h1>
+            <br/><br/>
             <h2>Chishuru</h2>
 
             <img src={pic2} className="img" alt="chishuru"></img>
@@ -59,6 +61,8 @@ const PlacesPage = () => {
             <p > Vegetarian friendly, West African cuisine from Chishuru is a guaranteed part of the evening, ekuru, goat ayamase and plantain and baobab ice cream are our favourite dishes!</p>
             <button style={{fontFamily:'bebas neue'}} a href="https://www.google.com/maps/place/Chishuru/@51.4619795,-0.1222635,15z/data=!3m1!4b1!4m5!3m4!1s0x48760564157cd34f:0x50fe2742da8fd4ee!8m2!3d51.4619798!4d-0.1135302">Get Directions</button>
             </div>
+            <br/><br/>
+            <br/><br/>
             <h2>Persepolis</h2>
 
             <img src={pic3} className="img" alt=""></img>
@@ -67,19 +71,20 @@ const PlacesPage = () => {
 
             </div>
             <div>
-
-            <h1>London North</h1>
-
+            <br/><br/>
+            <h1 className="subtitle">London North</h1>
+            <br/><br/>
             <h2>Mangal II</h2>
             <img className="img" src={pic4} alt="img"></img>
             <p >How could you go wrong with Turkish food? Mushroom manti to die for, as well as bits and bobs on the restaurant menu that change regularly. But don't worry, if you are not too adventurous, you can always find a reliable kofte and a doner.</p>
             <button style={{fontFamily:'bebas neue'}} a href="https://www.google.com/maps/place/Mangal+2+Restaurant/@51.5507874,-0.0749761,17z/data=!3m1!4b1!4m5!3m4!1s0x48761c8b8863bf4d:0x2c4c0fb5893488a9!8m2!3d51.5507862!4d-0.0749536">Get Directions</button>
-
+            <br/><br/>
+            <br/><br/>
             <h2>Tankatsu</h2>
             <img className="img" src={pic5} alt="img"></img>
             <p >Tanakatsu is best known for it's katsu dishes. The modern Japanese diner is ten minutes away from our cinemas. The sushi is a favourite of ours, and ofcourse at £12-£15 it is a reliably tasty fare.</p>
             <button style={{fontFamily:'bebas neue'}} a href="https://www.google.com/maps/place/TANAKATSU/@51.5302818,-0.1020072,17z/data=!3m1!4b1!4m5!3m4!1s0x48761b5b8f09e6dd:0x1d058f16ae27fd9d!8m2!3d51.5302818!4d-0.1020072">Get Directions</button>
-
+            <br/><br/>
             </div>
 
         </div>
