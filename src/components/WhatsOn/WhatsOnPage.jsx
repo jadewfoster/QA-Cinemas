@@ -2,6 +2,7 @@ import React from "react";
 import pic from "./dontworry.jpeg";
 import pic2 from "./bullettrain.jpeg";
 import pic3 from "./avatar.jpeg";
+import pic4 from  "./Lyle.jpeg"
 import "./whatson.css";
 
 const WhatsOnPage = () => {
@@ -25,6 +26,11 @@ const WhatsOnPage = () => {
         <div className="moviebox">
           <a href="./avatar">
             <img src={pic3} className="img" alt="avatar" />
+          </a>
+        </div>
+        <div className="moviebox">
+          <a href="./lyle">
+            <img src={pic4} className="img" alt="lyle" />
           </a>
         </div>
       </div>

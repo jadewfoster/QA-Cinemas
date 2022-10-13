@@ -19,6 +19,7 @@ import Payment from './components/Payments/Payment';
 import DWD from './components/WhatsOn/DWD';
 import Avatar from './components/WhatsOn/Avatar';
 import BT from './components/WhatsOn/BT';
+import Lyle from './components/WhatsOn/Lyle';
 
 
 
@@ -49,6 +50,8 @@ function App() {
         <Route path='/dworrydarling' element = {<DWD/>}/>
         <Route path='/bullettrain' element = {<BT/>}/>
         <Route path='/avatar' element = {<Avatar/>}/>
+        <Route path='/lyle' element = {<Lyle/>}/>
+        
 
         </Routes>
 

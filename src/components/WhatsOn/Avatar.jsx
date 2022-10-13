@@ -1,5 +1,8 @@
 import React from "react";
 import pic from "./star1.png";
+import ListingsDrop from "./ListingsDrop";
+import { Table } from "reactstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Avatar() {
   return (
@@ -12,12 +15,46 @@ export default function Avatar() {
           previously started, Jake must work with Neytiri and the army of the
           Na'vi race to protect their planet.
         </h3>
-        <h3>Notable Actors: Kate Winslet, Zoe Saldana, Sigourney Weaver, Sam Worthington </h3>
+        <h3>
+          Notable Actors: Kate Winslet, Zoe Saldana, Sigourney Weaver, Sam
+          Worthington{" "}
+        </h3>
         <h3>Director: James Cameron</h3>
         <h3>
           Rating: <img src={pic} />
           7.8/10
         </h3>
+      </div>
+      <div className="dropdown" align="center">
+        <ListingsDrop />
+      </div>
+      <div id="dropped-box" className="container-fluid" align="center">
+        <Table size="sm" borderless id="opening-times-table">
+          <thead>
+            <tr>
+              <th id="head">DAY</th>
+              <th id="head">TIME</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>12pm, 4pm, 9pm</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>7pm, 9pm</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>3pm, 7pm, 9pm</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>5pm</td>
+            </tr>
+          </tbody>
+        </Table>
       </div>
     </>
   );
