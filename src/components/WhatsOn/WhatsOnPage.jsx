@@ -1,7 +1,8 @@
 import React from "react";
 import pic from "./dontworry.jpeg";
-import pic2 from "./bullettrain.jpeg";
-import pic3 from "./avatar.jpeg";
+import pic2 from "./MrsHarris.jpg";
+import pic3 from "./Smile.jpg";
+import pic4 from "./TicketToParadise.jpg"
 import "./whatson.css";
 
 const WhatsOnPage = () => {
@@ -18,13 +19,18 @@ const WhatsOnPage = () => {
           </a>
         </div>
         <div className="moviebox">
-          <a href="./bullettrain">
-            <img src={pic2} className="img" alt="bt" />
+          <a href="/mrsharris">
+            <img src={pic2} className="img" alt="mrsharris" width="500" height="600"/>
           </a>
         </div>
         <div className="moviebox">
-          <a href="./avatar">
-            <img src={pic3} className="img" alt="avatar" />
+          <a href="/smile">
+            <img src={pic3} className="img" alt="smile" width="500" height="600"/>
+          </a>
+        </div>
+        <div className="moviebox">
+          <a href="/tickettoparadise">
+            <img src={pic4} className="img" alt="tickettoparadise" width="500" height="600"/>
           </a>
         </div>
       </div>

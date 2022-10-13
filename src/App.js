@@ -17,13 +17,9 @@ import GettingThere from './components/Getting There/GettingThere'
 import Footer from './components/ManyPages/Footer';
 import Payment from './components/Payments/Payment';
 import DWD from './components/WhatsOn/DWD';
-import Avatar from './components/WhatsOn/Avatar';
-import BT from './components/WhatsOn/BT';
-
-
-
-
-
+import MrsHarris from './components/WhatsOn/MrsHarris';
+import Smile from './components/WhatsOn/Smile';
+import TicketToParadise from './components/WhatsOn/TicketToParadise';
 
 function App() {
 
@@ -47,8 +43,9 @@ function App() {
         <Route path='/getting-there' element={<GettingThere/>}/>
         <Route path='/payment' element = {<Payment/>}/>
         <Route path='/dworrydarling' element = {<DWD/>}/>
-        <Route path='/bullettrain' element = {<BT/>}/>
-        <Route path='/avatar' element = {<Avatar/>}/>
+        <Route path='/smile' element = {<Smile/>}/>
+        <Route path='/mrsharris' element = {<MrsHarris/>}/>
+        <Route path='/tickettoparadise' element = {<TicketToParadise/>}/>
 
         </Routes>
 
