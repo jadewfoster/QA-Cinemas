@@ -18,7 +18,7 @@ const ImageSlider = ({images}) => {
   };
   return (
     <>
-    <div className="tag">
+    <div className="title">
           <h1 id="header">Welcome to QA Cinemas!</h1>
     </div>
       <div className="imgslider">

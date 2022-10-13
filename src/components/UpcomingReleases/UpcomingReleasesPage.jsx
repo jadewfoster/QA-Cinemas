@@ -1,7 +1,7 @@
 import React from 'react';
 
 const UpcomingReleasesPage = () => {
-    document.title = "New Releases"
+    document.title = "Upcoming Releases"
 
     return (
         <div id="dropped-box" className="container-fluid" align="left">

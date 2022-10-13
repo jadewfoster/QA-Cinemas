@@ -5,22 +5,23 @@ const AboutUsPage = () => {
     document.title = "About Us"
 
     return (
-        <div id="dropped-box" className="container-fluid" align="center">
+        <div id="dropped-box" className="body" align="center">
             <Container>
-                <h1 id="header">ABOUT US</h1>
+                <h1 id="header" className="title">ABOUT US</h1>
+                <br/>
                 <h3>Our Team</h3>
+                <br/>
                 <p>
                     Our group, consisting of 4 people, were tasked with creating a fully functional website, including a booking and payment system, for the fictional company QA Cinemas.
                     <br />
                     Over our 10 weeks of training with QA we have learnt many skills. In this project, we specifically used our skills in React, MongoDB, Javascript, Node, Express, Mocha and Chai.
                 </p>
-
-                <h4>Details of the members of our team</h4>
-                <div id="dropped-box" className="container-fluid">
+                <br/>
+                <h4>Team Member Details</h4>
+                <div id="dropped-box" className="body">
                     <Table id="open-table" borderless striped >
                         <thead align="center">
                             <tr >
-                                <th></th>
                                 <th>First Name</th>
                                 <th>Last Name</th>
                                 <th>Email</th>
@@ -30,7 +31,6 @@ const AboutUsPage = () => {
                         </thead>
                         <tbody align="center">
                             <tr >
-                                <th scope="row">1</th>
                                 <td>Jade</td>
                                 <td>Foster</td>
                                 <td>jadewfoster@gmail.com</td>
@@ -38,7 +38,6 @@ const AboutUsPage = () => {
                                 <td>Front End</td>
                             </tr>
                             <tr>
-                                <th scope="row">2</th>
                                 <td>Mariana</td>
                                 <td>Nikolova</td>
                                 <td>mnikolova1000@gmail.com]</td>
@@ -46,7 +45,6 @@ const AboutUsPage = () => {
                                 <td>Back End</td>
                             </tr>
                             <tr>
-                                <th scope="row">3</th>
                                 <td>Isabella</td>
                                 <td>O'Hara</td>
                                 <td>isabellaohara@btinternet.com</td>
@@ -54,7 +52,6 @@ const AboutUsPage = () => {
                                 <td>Back End</td>
                             </tr>
                             <tr>
-                                <th scope="row">4</th>
                                 <td>Fatima</td>
                                 <td>Sheik-Nur</td>
                                 <td>fsheikhnur@gmail.com</td>

@@ -8,6 +8,7 @@ import PaymentInfo from './PaymentInfo.jsx';
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PK);
 
 const Payment = () => {
+    document.title = "Checkout"
     const location = useLocation();
     const {newBooking} = location.state
     const totalSeatsBooked = parseInt(newBooking.adult) + parseInt(newBooking.child) + parseInt(newBooking.concession);
