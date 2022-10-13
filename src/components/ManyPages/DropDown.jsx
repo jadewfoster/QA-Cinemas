@@ -21,7 +21,7 @@ export default function List() {
     `}
       </style>
       <DropdownButton size="xxl" variant="flat" title="info" className="dropbtn">
-        <Dropdown.Item href="/aboutus">About Us</Dropdown.Item>
+        <Dropdown.Item href="/about-us">About Us</Dropdown.Item>
         <Dropdown.Item href="/contact-us">Contact Us</Dropdown.Item>
         <Dropdown.Item href="/classifications">Classifications</Dropdown.Item>
       </DropdownButton>

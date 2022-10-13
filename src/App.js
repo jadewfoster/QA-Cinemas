@@ -30,7 +30,6 @@ function App() {
         <Route path="/" element={<HomePage/>}/>
         <Route path="/discussion" element={<Discussion/>}/>
         <Route path="/classifications" element={<ClassificationsPage/>}/>
-        <Route path ="/aboutus" element = {<AboutUsPage/>}/>
         <Route path ="/openingtimes" element = {<OpeningTimesPage/>}/>
         <Route path="/about-us" element = {<AboutUsPage/>}/>
         <Route path="/openingtimes" element = {<OpeningTimesPage/>}/>
