@@ -9,20 +9,21 @@
 }
 
 input[type=text] {    
-    font-family: 'bebas neue';
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: medium;
     width: 100%;
     border: none;
-    box-sizing: border-box;
+    box-sizing:border-box;
 
   }
 
   .submit {
     font-family: 'bebas neue';
+    text-align:center;
     border: 0.1rem;
     border-color: black;
     cursor: pointer;
     background-color: #4CD3CA;
-    font-size: large
-    ;
+    font-size: medium;
 
 }

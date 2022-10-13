@@ -69,6 +69,7 @@ export default function Navbar() {
           <CustomLink to="/discussion">Discussion</CustomLink>
         </li>
 
+    <ul className="nav">
         <li>
           <Search searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
           {visible &&
@@ -82,6 +83,7 @@ export default function Navbar() {
       Search
     </button>
         </li>
+        </ul>
       </ul>
     </nav>
   );
