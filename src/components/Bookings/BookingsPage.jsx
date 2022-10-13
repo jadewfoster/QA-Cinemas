@@ -8,7 +8,7 @@ const BookingsPage = () => {
     const[AllScreenings, setAllScreenings] = useState([]);
     const[movie, setMovie] = useState("");
     const[cinema, setCinema] = useState("");
-    const[visible, setVisible] = useState(false)
+    const[visible, setVisible] = useState(false);
 
     //get all screenings from the collection
     const getAllScreenings = () => {        
