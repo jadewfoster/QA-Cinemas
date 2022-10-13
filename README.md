@@ -1,3 +1,4 @@
+Coverage: 81%
 # QA-Cinemas
 
 QA Final Project - Creating a functional website for a cinema
@@ -34,10 +35,10 @@ To see this website:
 ### Prerequisites
 
 This website was built on:
-- React verison *** which can be downloaded here: https://react-cn.github.io/react/downloads.html
+- React verison 18.2.0 which can be downloaded here: https://react-cn.github.io/react/downloads.html
 - Node version 16.18.0 which can be downloaded here: https://nodejs.org/en/download/
 - MongoDB version 6.0.1 which can be downloaded here: https://www.mongodb.com/try/download/community2
-- Express version *** which can be installed through these instructions: https://expressjs.com/en/starter/installing.html
+- Express version 4.18.2 which can be installed through these instructions: https://expressjs.com/en/starter/installing.html
 
 ## Testing
 
@@ -45,9 +46,10 @@ This website was built on:
 
 To test the backend apis we used mocha, chai and istanbul (for coverage). For this we used a mock database called Cinema-test.
 To run these tests, navigate to the backend folder and in the terminal run "npm run test".
-- Mocha version ***
-- Chai version ***
-- Istanbul version ***
+- Mocha version 10.0.0
+- Chai version 4.3.6
+- Chai-Http version 4.3.0
+- Istanbul version 15.1.0
 
 ```
 //Example test from the ScreeningsAPI
