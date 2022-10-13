@@ -20,9 +20,11 @@ export default function Navbar() {
     {id: "9", name: "Make a booking", link: "http://localhost:3000/book-your-ticket"},
     {id: "10", name: "Upcoming - future movie listings", link: "http://localhost:3000/upcoming-releases"},
     {id: "11", name: "Discussions", link: "http://localhost:3000/discussion"},
-    {id: "12", name: "Don't worry darling", link: "http://localhost:3000/DWD.jsx"},
-    {id: "13", name: "Bullet train", link: "http://localhost:3000/BT.jsx"},
-    {id: "14", name: "Avatar - the way of water", link: "http://localhost:3000/Avatar.jsx"}
+    {id: "12", name: "Dont worry darling", link: "http://localhost:3000/dworrydarling"},
+    {id: "13", name: "Don't worry darling", link: "http://localhost:3000/dworrydarling"},
+    {id: "14", name: "Smile", link: "http://localhost:3000/smile"},
+    {id: "15", name: "Mrs Harris Goes To Paris", link: "http://localhost:3000/mrsharris"},
+    {id: "16", name: "Ticket To Paradise", link: "http://localhost:3000/tickettoparadise"},
   ]);
 
   const filterPosts = (posts, query) => {

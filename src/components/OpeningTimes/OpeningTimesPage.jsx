@@ -11,17 +11,9 @@ const OpeningTimes = () => {
         <br />
 
         
-        <div class="dropdown" className="centerbody">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    Select your cinema
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="#">Central London</a></li>
-    <li><a class="dropdown-item" href="#">North London</a></li>
-    <li><a class="dropdown-item" href="#">South London</a></li>
-  </ul>
+        <div className="centerbody">
+  <h3>Here are the opening times for our cinemas:</h3>
 </div>
-
 
       </Container>
 
