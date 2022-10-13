@@ -1,35 +1,36 @@
-import React from "react";
-import emailjs from 'emailjs-com'
+import React, {useRef} from "react";
+// import emailjs from 'emailjs-com'
 import "./contact.css";
 
 const ContactUsPage = () => {
   document.title = "Contact Us"
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_d8vpl9c",
-        "template_0qzcbpo",
-        e.target,
-        "wI6BFnpKPSReyP01s"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          window.location.reload();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  //   emailjs
+  //     .sendForm(
+  //       "service_d8vpl9c",
+  //       "template_0qzcbpo",
+  //       e.target,
+  //       "wI6BFnpKPSReyP01s"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         window.location.reload();
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
 
   return (
     <div className="container">
-      <form onSubmit={sendEmail}>
+      <form>
+      {/* <form onSubmit={sendEmail}> */}
         <div className="formWord">
           <h2>How can we help?</h2>
           <span>Full Name</span>
