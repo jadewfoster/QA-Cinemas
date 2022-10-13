@@ -26,6 +26,10 @@ export default function Navbar() {
         <List title="Dropdowns" />
 
         <li>
+          <CustomLink to="/upcoming-releases">Upcoming Releases</CustomLink>
+        </li>
+
+        <li>
           <CustomLink to="/discussion">Discussion</CustomLink>
         </li>
 

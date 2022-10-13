@@ -1,3 +1,4 @@
+import React from 'react';
 import { useStripe, useElements, CardElement } from '@stripe/react-stripe-js'
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -32,8 +33,8 @@ const CustomerInfo = (props) => {
                 bookingNo: props.newBooking.booking_num,
                 name: name,
                 email: email,
-                film: props.newBooking.MovieName,
-                location: props.newBooking.ScreenName,
+                film: props.newBooking.movie,
+                location: props.newBooking.cinema,
                 date: props.newBooking.Date,
                 time: props.newBooking.Time,
                 screenType: props.newBooking.ScreenType,
@@ -61,7 +62,7 @@ const CustomerInfo = (props) => {
                         <input type="email" className="form-control" id="email" onChange={(e) => setEmail(e.target.value)} required/>
            
             <div>
-                <label htmlFor="card" className="form-label">Credit Card Details</label>
+                <label htmlFor="card" className="form-label"> Card Details</label>
                 <div className='card-input' id='card'>
                     <CardElement />
                 </div>
