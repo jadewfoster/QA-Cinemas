@@ -61,34 +61,38 @@ const Discussion = () => {
 
     return(
         <>
-        <h1 id="header">Discussion</h1>
+        <h1 id="header" className="title">Discussion</h1>
 
-        <form onSubmit={submitHandler}>
-        <label htmlFor="movie">Choose a movie:</label>
+        <form onSubmit={submitHandler}> 
+        <label htmlFor="movie" className="bodybold">Choose a movie:</label>
         <select name="movie" id="movie" value = {movie}
         onChange={e => setMovie(e.target.value)}>
-        <option value="default">Please choose a movie:</option>
+        <option value="default" >Please choose a movie:</option>
         <option value="Don't Worry Darling">Don't Worry Darling</option>
         <option value="Mrs. Harris Goes to Paris">Mrs. Harris Goes to Paris</option>
         <option value="Smile">Smile</option>
         <option value="Ticket to Paradise">Ticket to Paradise</option>
         </select><br/>
 
-        <button id="getDiscussionsButton" onClick={discussionsFilter}>Get latest discussions</button>
+        <button id="getDiscussionsButton" onClick={discussionsFilter} className="dscnBtn">Get latest discussions</button>
         </form>
-
+        <br/>
+        <br/>
+        <br/>
         <form>
-        <label> Name:</label>
+        <label className="bodybold"> Name:</label>
                 <input id="name" name="name" 
                 type="text" 
                 value={name} 
                 onChange={e => setName(e.target.value)}/>
-        <label>Comment:</label>
+                        <br/>
+        <label className="bodybold">Comment:</label>
                 <textarea id="comment" name="comment" 
                 type="text" 
                 value={comment} 
                 onChange={e => setComment(e.target.value)}/>
-        <label htmlFor="rating">Choose a rating:</label>
+                        <br/>
+        <label htmlFor="rating" className="bodybold">Choose a rating:</label>
         <select name="rating" id="rating" value = {rating}
         onChange={e => setRating(e.target.value)}>
         <option value="default">Please choose a rating:</option>
@@ -98,9 +102,10 @@ const Discussion = () => {
         <option value="4">4</option>
         <option value="5">5</option>
         </select>
-        <button id="postDiscussionButton" onClick={postDiscussion}>Post your comment</button>
+        <button id="postDiscussionButton" onClick={postDiscussion} className="dscnSubmitBtn">Post your comment</button>
         </form>
-
+        <br/>
+        <br/>
         {visible && 
         <table id = "discussionsTable">
             <tr>
@@ -108,7 +113,8 @@ const Discussion = () => {
                 <th>Comment</th>
                 <th>Rating</th>                  
             </tr>
-            
+            <br/>
+        <br/>
             {AllDiscussions.map( (discussion, index) =>
             <tr key={index}><td>{discussion.Name}</td>
                  <td>{discussion.Comment}</td>
@@ -116,6 +122,8 @@ const Discussion = () => {
                  </tr>)}           
             </table>
             }
+            <br/>
+            <br/>
 
             </>
     );
