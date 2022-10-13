@@ -10,7 +10,7 @@ const Search = ({ searchQuery, setSearchQuery }) => {
 
   return(
     <div>
-  <form onSubmit={submitHandler} action="/" method="get">
+  <form onSubmit={submitHandler} action="/" method="get" className="searchbar">
     <label htmlFor="header-search">
       <span className="visually-hidden"></span>
     </label>
