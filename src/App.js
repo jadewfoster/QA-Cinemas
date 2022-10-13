@@ -11,7 +11,7 @@ import ComingSoon from './components/UpcomingReleases/UpcomingReleasesPage';
 import AboutUsPage from './components/AboutUs/AboutUsPage'
 import OpeningTimesPage from './components/OpeningTimes/OpeningTimesPage'
 import ClassificationsPage from './components/Classifications/ClassificationsPage'
-//import ContactUs from './components/ContactUs/ContactUsPage';
+// import ContactUs from './components/ContactUs/ContactUsPage';
 import ScreensPage from './components/Screens/ScreensPage'
 import GettingThere from './components/Getting There/GettingThere'
 import Footer from './components/ManyPages/Footer';
