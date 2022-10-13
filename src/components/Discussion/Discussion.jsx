@@ -3,7 +3,8 @@ const Filter = require('bad-words'),
     filter = new Filter();
 
 const Discussion = () => {
-
+    document.title = "Discussion"
+    
     const[AllDiscussions, SetAllDiscussions] = useState([]);
     const[movie, setMovie] = useState("");
     const[comment, setComment] = useState("");

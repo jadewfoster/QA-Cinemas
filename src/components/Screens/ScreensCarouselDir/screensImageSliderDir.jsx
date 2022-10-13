@@ -4,28 +4,30 @@ import "slick-carousel/slick/slick-theme.css";
 import "./carouselstyle.css"
 import React from 'react'
   
-const ImageSlider = ({images}) => {
+const ImageSliderScreensDir = ({screensImagesDir}) => {
   
-  const settings = {
+  const settings= {
     infinite: true,
     dots: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     lazyLoad: true,
     autoplay: true,
-  autoplaySpeed: 2000,
+    autoplaySpeed: 2000,
    
   };
+
   return (
     <>
-    <div className="title">
-          <h1 id="header">Welcome to QA Cinemas!</h1>
+    <div className="tag">
+          <h2 id="header">Our Director Screens</h2>
+          <p>Our director screens provide that little bit extra for an unbelievable night out</p>
     </div>
       <div className="imgslider">
         <Slider {...settings}>
-          {images.map((item) => (
+          {screensImagesDir.map((item) => (
             <div key={item.id}>
-              <img src={item.src}  alt={item.alt} />
+              <img src={item.src} alt={item.alt} />
             </div>
           ))}
         </Slider>
@@ -33,4 +35,4 @@ const ImageSlider = ({images}) => {
           </>
   )
 }
-export default ImageSlider;
+export default ImageSliderScreensDir;
