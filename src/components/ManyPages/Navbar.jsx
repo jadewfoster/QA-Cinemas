@@ -25,6 +25,9 @@ export default function Navbar() {
     {id: "14", name: "Smile", link: "http://localhost:3000/smile"},
     {id: "15", name: "Mrs Harris Goes To Paris", link: "http://localhost:3000/mrsharris"},
     {id: "16", name: "Ticket To Paradise", link: "http://localhost:3000/tickettoparadise"},
+    {id: "17", name: "London Central", link: "http://localhost:3000/londoncentral"},
+    {id: "18", name: "London North", link: "http://localhost:3000/londonnorth"},
+    {id: "19", name: "London South", link: "http://localhost:3000/londonsouth"},
   ]);
 
   const filterPosts = (posts, query) => {
