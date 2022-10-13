@@ -1,18 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import Logo from "../ManyPages/assets/Logo.jpeg";
 import List from "../../components/ManyPages/DropDown";
 import Search from "../Searchbar/search";
 
 export default function Navbar() {
-  const filteredPosts = filterPosts(posts, query);
-  const [searchQuery, setSearchQuery] = useState(query || "");
   return (
     <nav className="nav">
       <div className="logo">
         <Link to={"/home"}>
           {" "}
-          <img className="logo" src={Logo} alt="logo" />
+          <img className="logo"
+            src={Logo}
+            alt="logo"
+          />
         </Link>
       </div>
 
@@ -29,14 +30,7 @@ export default function Navbar() {
           <CustomLink to="/discussion">Discussion</CustomLink>
         </li>
 
-        <li>
-          <Search searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-          <ul style={{ fontSize: "small" }}>
-            {filteredPosts.map((post) => (
-              <li key={post.key}>{post.name}</li>
-            ))}
-          </ul>
-        </li>
+        <Search />
       </ul>
     </nav>
   );
@@ -54,22 +48,3 @@ function CustomLink({ to, children, ...props }) {
     </li>
   );
 }
-
-const posts = [
-  { id: "1", name: "Central London" },
-  { id: "2", name: "South London" },
-  { id: "3", name: "North London" },
-];
-
-const { search } = window.location;
-const query = new URLSearchParams(search).get("s");
-const filterPosts = (posts, query) => {
-  if (!query) {
-    return posts;
-  }
-
-  return posts.filter((post) => {
-    const postName = post.name.toLowerCase();
-    return postName.includes(query);
-  });
-};
