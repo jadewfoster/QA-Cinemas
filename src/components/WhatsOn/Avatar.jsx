@@ -1,25 +1,32 @@
 import React from "react";
+import pic from "./star1.png";
 import ListingsDrop from "./ListingsDrop";
-import pic from "./star1.png"
 import { Table } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function DWD() {
+export default function Avatar() {
   return (
     <>
       <div align="center" style={{ fontFamily: "bebas neue" }}>
-        <h1>Don't Worry Darling</h1>
+        <h1>Avatar: the way of water</h1>
         <h3>
-          Description: A 1950s housewife living with her husband in a utopian
-          experimental community begins to worry that his glamorous company
-          could be hiding disturbing secrets.
+          Description: Jake Sully lives with his newfound family formed on the
+          planet of Pandora. Once a familiar threat returns to finish what was
+          previously started, Jake must work with Neytiri and the army of the
+          Na'vi race to protect their planet.
         </h3>
-        <h3>Notable Actors: Florence Pugh, Harry Styles, Chris Pine</h3>
-        <h3>Director: Olivia Wilde</h3>
-        <h3>Rating: <img src={pic} />6.10/10</h3>
+        <h3>
+          Notable Actors: Kate Winslet, Zoe Saldana, Sigourney Weaver, Sam
+          Worthington{" "}
+        </h3>
+        <h3>Director: James Cameron</h3>
+        <h3>
+          Rating: <img src={pic} />
+          7.8/10
+        </h3>
       </div>
       <div className="dropdown" align="center">
-        <ListingsDrop/>
+        <ListingsDrop />
       </div>
       <div id="dropped-box" className="container-fluid" align="center">
         <Table size="sm" borderless id="opening-times-table">
@@ -31,19 +38,19 @@ export default function DWD() {
           </thead>
           <tbody>
             <tr>
-              <td>Tuesday</td>
+              <td>Monday</td>
               <td>12pm, 4pm, 9pm</td>
             </tr>
             <tr>
-              <td>Thursday</td>
+              <td>Wednesday</td>
               <td>7pm, 9pm</td>
             </tr>
             <tr>
-              <td>Friday</td>
+              <td>Saturday</td>
               <td>3pm, 7pm, 9pm</td>
             </tr>
             <tr>
-              <td>Saturday</td>
+              <td>Sunday</td>
               <td>5pm</td>
             </tr>
           </tbody>

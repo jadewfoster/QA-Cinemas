@@ -1,22 +1,27 @@
 import React from "react";
+import pic from "./star1.png";
 import ListingsDrop from "./ListingsDrop";
-import pic from "./star1.png"
 import { Table } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function DWD() {
+export default function BT() {
   return (
     <>
       <div align="center" style={{ fontFamily: "bebas neue" }}>
-        <h1>Don't Worry Darling</h1>
+        <h1>Bullet Train</h1>
         <h3>
-          Description: A 1950s housewife living with her husband in a utopian
-          experimental community begins to worry that his glamorous company
-          could be hiding disturbing secrets.
+          Description: Five assassins aboard a swiftly-moving bullet train to
+          find out that their missions have something in common.
         </h3>
-        <h3>Notable Actors: Florence Pugh, Harry Styles, Chris Pine</h3>
-        <h3>Director: Olivia Wilde</h3>
-        <h3>Rating: <img src={pic} />6.10/10</h3>
+        <h3>
+          Notable Actors: Brad Pitt, Joey King, Aaron Taylor-Johnson, Brian
+          Tyree Henry
+        </h3>
+        <h3>Director: David Leitch</h3>
+        <h3>
+          Rating: <img src={pic} />
+          7.4/10
+        </h3>
       </div>
       <div className="dropdown" align="center">
         <ListingsDrop/>
@@ -31,21 +36,18 @@ export default function DWD() {
           </thead>
           <tbody>
             <tr>
-              <td>Tuesday</td>
-              <td>12pm, 4pm, 9pm</td>
+              <td>Monday</td>
+              <td>5pm, 9pm</td>
             </tr>
             <tr>
-              <td>Thursday</td>
-              <td>7pm, 9pm</td>
-            </tr>
-            <tr>
-              <td>Friday</td>
-              <td>3pm, 7pm, 9pm</td>
+              <td>Wednesday</td>
+              <td>6pm, 8pm</td>
             </tr>
             <tr>
               <td>Saturday</td>
-              <td>5pm</td>
+              <td>5pm, 7pm, 9pm</td>
             </tr>
+
           </tbody>
         </Table>
       </div>
