@@ -34,28 +34,28 @@ const AboutUsPage = () => {
                                 <td>Jade</td>
                                 <td>Foster</td>
                                 <td>jadewfoster@gmail.com</td>
-                                <td><a id="link-to-github" href="https://www.github.com/jadewfoster" target="_blank" rel="noreferrer">jadewfoster</a></td>
+                                <td><a id="link-to-github" href="https://www.github.com/jadewfoster" target="_blank" rel="noopener noreferrer">jadewfoster</a></td>
                                 <td>Front End</td>
                             </tr>
                             <tr>
                                 <td>Mariana</td>
                                 <td>Nikolova</td>
                                 <td>mnikolova1000@gmail.com]</td>
-                                <td><a id="link-to-github" href="https://github.com/mariana-ks01" target="_blank" rel="noreferrer">mariana-ks01</a></td>
+                                <td><a id="link-to-github" href="https://github.com/mariana-ks01" target="_blank" rel="noopener noreferrer">mariana-ks01</a></td>
                                 <td>Back End</td>
                             </tr>
                             <tr>
                                 <td>Isabella</td>
                                 <td>O'Hara</td>
                                 <td>isabellaohara@btinternet.com</td>
-                                <td><a id="link-to-github" href="https://www.github.com/isabellaohara" target="_blank" rel="noreferrer">isabellaohara</a></td>
+                                <td><a id="link-to-github" href="https://www.github.com/isabellaohara" target="_blank" rel="noopener noreferrer">isabellaohara</a></td>
                                 <td>Back End</td>
                             </tr>
                             <tr>
                                 <td>Fatima</td>
                                 <td>Sheik-Nur</td>
                                 <td>fsheikhnur@gmail.com</td>
-                                <td><a id="link-to-github" href="https://www.github.com/fjeylani" target="_blank" rel="noreferrer">fjeylani</a></td>
+                                <td><a id="link-to-github" href="https://www.github.com/fjeylani" target="_blank" rel="noopener noreferrer">fjeylani</a></td>
                                 <td>Front End</td>
                             </tr>
                         </tbody>

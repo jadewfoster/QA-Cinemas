@@ -6,7 +6,7 @@ export default function LondonSouth() {
         <div>
             <h3 className="title">Directions to our London South cinema:</h3>
             <div align="center">
-            <iframe width="600" height="500" id="gmap_canvas"
+            <iframe width="600" height="500" id="gmap_canvas" title="londonsouth"
             src="https://maps.google.com/maps?q=20%20Peckham%20High%20St,%20London%20SE15%205DT&t=&z=13&ie=UTF8&iwloc=&output=embed"
             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 </div>

@@ -7,7 +7,7 @@ export default function LondonCentral() {
         <div>
             <h3 className="title">Directions to our London Central Cinema:</h3>
             <div align="center">
-            <iframe width="600" height="500" id="gmap_canvas" 
+            <iframe width="600" height="500" id="gmap_canvas"  title="londoncentral"
             src="https://maps.google.com/maps?q=35%20Dean%20St,%20London%20W1D%204PY&t=&z=13&ie=UTF8&iwloc=&output=embed" 
             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>

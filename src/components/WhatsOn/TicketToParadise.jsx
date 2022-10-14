@@ -1,6 +1,5 @@
 import React from "react";
 import pic from "./assets/star1.png"
-import ListingsDrop from "./ListingsDrop";
 import { Table } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -21,7 +20,7 @@ export default function TicketToParadise() {
             Julia Roberts, Arielle Carver-O'Neill</h3>
           <h3>Director: Ol Parker</h3>
           <br/>
-          <h3>Rating: <img src={pic} />6.4/10</h3>
+          <h3>Rating: <img src={pic} alt="star"  />6.4/10</h3>
           <br/>
         </div>
         </div>

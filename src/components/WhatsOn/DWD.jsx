@@ -1,5 +1,4 @@
 import React from "react";
-import ListingsDrop from "./ListingsDrop";
 import pic from "./assets/star1.png"
 import { Table } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -21,7 +20,7 @@ export default function DWD() {
         <br/>
         <h3>Director: Olivia Wilde</h3>
         <br/>
-        <h3>Rating: <img src={pic} />6.10/10</h3>
+        <h3>Rating: <img src={pic} alt="star" />6.10/10</h3>
         <br/> 
       </div>
       </div>

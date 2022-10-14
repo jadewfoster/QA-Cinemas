@@ -1,6 +1,5 @@
 import React from "react";
 import pic from "./assets/star1.png";
-import ListingsDrop from "./ListingsDrop";
 import { Table } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -24,7 +23,7 @@ export default function BT() {
         <h3>Director: David Leitch</h3>
         <br/>
         <h3>
-          Rating: <img src={pic} />
+          Rating: <img src={pic} alt="star"  />
           7.4/10
         </h3>
         <br/>

@@ -6,7 +6,7 @@ export default function LondonNorth() {
         <div>
         <h3 className="title">Directions to our London North cinema:</h3>
         <div align="center">
-        <iframe width="600" height="500" id="gmap_canvas"
+        <iframe width="600" height="500" id="gmap_canvas" title="londonnorth"
         src="https://maps.google.com/maps?q=1%20Wakley%20St,%20London%20EC1V%207LT&t=&z=13&ie=UTF8&iwloc=&output=embed"
         frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>

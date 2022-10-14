@@ -79,8 +79,8 @@ const GettingThere = () => {
 
     <div className='branch-thumbnail'>
       <div className='branch-image'>
-      <a href="/londonsouth" alt="London South">
-        <img src={pic3}>
+      <a href="/londonsouth">
+        <img src={pic3} alt="London South">
       </img>
       </a>
       <br/>

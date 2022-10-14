@@ -20,7 +20,7 @@ const CustomerInfo = (props) => {
             return;
         }
 
-        const { error, paymentMethod } = await stripe.createPaymentMethod({
+        const { error } = await stripe.createPaymentMethod({
             type: "card",
             card: elements.getElement(CardElement),
         });
@@ -29,7 +29,7 @@ const CustomerInfo = (props) => {
             console.log(error);
             alert("Card payment has not been successful. Please try again.")
         } else {
-            axios.post("http://localhost:3000/bookings/create", {
+            axios.post("http://localhost:3000/cinema/bookings/create", {
                 bookingNo: props.newBooking.booking_num,
                 name: name,
                 email: email,
@@ -46,7 +46,7 @@ const CustomerInfo = (props) => {
                 hasPaid: true
             })
                 .then((res) => {
-                    navigate("/booking/" + res.data.booking_num, )
+                    navigate("/confirm" + res.data.booking_num, )
                 }).catch((error) => {
                     console.log(error)
                     alert("Error")
