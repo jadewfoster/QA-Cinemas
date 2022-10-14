@@ -16,7 +16,7 @@ const GettingThere = () => {
 
         <div class="dropdown">
   <h3>
-    Select your cinema:
+    Click on the image of the cinema to view directions:
   </h3>
 </div>
 <br/>
