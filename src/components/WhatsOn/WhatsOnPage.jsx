@@ -1,11 +1,11 @@
 import React from "react";
-import pic from "./dontworry.jpeg";
-import pic2 from "./bullettrain.jpeg";
-import pic3 from "./Avatar.jpg";
-import pic4 from "./Lyle.jpeg"
-import pic5 from "./Smile.jpg"
-import pic6 from "./TicketToParadise.jpg"
-import pic7 from "./MrsHarris.jpg"
+import pic from "./assets/dontworry.jpeg";
+import pic2 from "./assets/bullettrain.jpeg";
+import pic3 from "./assets/Avatar.jpg";
+import pic4 from "./assets/Lyle.jpeg"
+import pic5 from "./assets/Smile.jpg"
+import pic6 from "./assets/TicketToParadise.jpg"
+import pic7 from "./assets/MrsHarris.jpg"
 import "./whatson.css";
 
 const WhatsOnPage = () => {

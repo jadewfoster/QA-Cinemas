@@ -1,6 +1,6 @@
 import React from "react";
 import ListingsDrop from "./ListingsDrop";
-import pic from "./star1.png"
+import pic from "./assets/star1.png"
 import { Table } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 

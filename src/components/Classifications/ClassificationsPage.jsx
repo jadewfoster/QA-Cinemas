@@ -1,12 +1,12 @@
 import React from 'react';
 import {Container, Table } from 'reactstrap';
 
-import u from '../../images/classifications/U.png'
-import pg from '../../images/classifications/PG.png'
-import R12 from '../../images/classifications/12.png'
-import R12A from '../../images/classifications/12A.png'
-import R15 from '../../images/classifications/15.png'
-import R18 from '../../images/classifications/18.png'
+import u from './assets/U.png'
+import pg from './assets/PG.png'
+import R12 from './assets/12.png'
+import R12A from './assets/12A.png'
+import R15 from './assets/15.png'
+import R18 from './assets/18.png'
 
 
 const ClassificationsPage = () => {

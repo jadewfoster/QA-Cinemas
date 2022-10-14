@@ -1,9 +1,9 @@
 import React from 'react';
 import {Container} from 'reactstrap';
-import './gettingther.css'
-import pic from './LondonCentral.png'
-import pic2 from './London-North.png'
-import pic3 from './London-South.png'
+import './gettingthere.css'
+import pic from './assets/LondonCentral.png'
+import pic2 from './assets/London-North.png'
+import pic3 from './assets/London-South.png'
 
 const GettingThere = () => {
   document.title = "Getting There"

@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "./star1.png";
+import pic from "./assets/star1.png";
 import ListingsDrop from "./ListingsDrop";
 import { Table } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
