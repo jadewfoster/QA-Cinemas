@@ -59,6 +59,8 @@ function App() {
         <Route path='/londonnorth' element = {<LondonNorth/>}/>
         <Route path='/londonsouth' element = {<LondonSouth/>}/>
 
+        <Route path='*' element={<h1>404 Not Found!</h1>}/>
+
         </Routes>
 
       <Footer/>
