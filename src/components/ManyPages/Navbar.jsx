@@ -54,7 +54,7 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <div className="logo">
-        <Link to={"/home"}>
+        <Link to={"/"}>
           {" "}
           <img className="logo" src={Logo} alt="logo" />
         </Link>
