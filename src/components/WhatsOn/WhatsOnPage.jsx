@@ -12,8 +12,9 @@ const WhatsOnPage = () => {
   return (
     <>
       <div className="header" align="center">
-        <h1>What's On</h1>
-        <h3>Here is a selection of our current movies</h3>
+        <h1 className="title">What's On</h1>
+        <h3 className="body">Here is a selection of our current movies</h3>
+        <h3 className="body">Click on the images to find out more</h3>
       </div>
       <div display="column" align="center" width="50px" height="50px">
         <div className="moviebox">

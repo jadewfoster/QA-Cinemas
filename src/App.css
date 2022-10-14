@@ -4,6 +4,12 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+.bodybold {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: black;
+}
+
 .centerbody{
     margin: 0;
     font-family: 'Trebuchet MS', sans-serif;
@@ -130,3 +136,37 @@ body {
     text-align:"center"
   }
 
+  .dscnBtn{
+    font-family: 'bebas neue';
+    text-align:center;
+    border: 0.1rem;
+    border-color: black;
+    cursor: pointer;
+    background-color: #4CD3CA;
+    font-size: large;
+    align-self: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .dscnSubmitBtn{
+    font-family: 'bebas neue';
+    text-align:center;
+    border: 0.1rem;
+    border-color: black;
+    cursor: pointer;
+    background-color: #4CD3CA;
+    font-size: xx-large;
+    align-self: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .smallsubtitle{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: black;
+    text-align:left;
+}
