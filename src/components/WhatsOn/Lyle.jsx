@@ -8,9 +8,11 @@ export default function Lyle() {
   return (
     <>
       <div align="center" style={{ fontFamily: "bebas neue" }}>
-        <h1>LYLE, LYLE, CROCODILE</h1>
+        <h1 className="title">LYLE, LYLE, CROCODILE</h1>
+        <div className="centerbody">
+        <br/>
         <h3>
-          Description:Based on the best-selling book series by Bernard Waber,
+          Description: Based on the best-selling book series by Bernard Waber,
           Lyle, Lyle, Crocodile is a live-action / CGI musical comedy that
           brings this beloved character to a new, global audience. When the
           Primm family moves to New York City, their young son Josh struggles to
@@ -22,14 +24,19 @@ export default function Lyle() {
           can come from the most unexpected places and there"s nothing wrong
           with a big singing crocodile with an even bigger personality.
         </h3>
+        <br/>
         <h3>
-          Notable Actors: JAVIER BARDEM, SCOOT MCNAIRY, BRETT GELMAN, CONSTANCE WU, WINSLOW FEGLEY, SHAWN MENDES, LYRIC HURD
+          Notable Actors: Javier Bardem, Scoot McNairy, Brett Gelman, Constance Wu, Winslow Fegley, Shawn Mendes, Lyric Hurd
         </h3>
-        <h3>Director: JOSH GORDON, WILL SPECK</h3>
+        <br/>
+        <h3>Director: Josh Gordon, Will Speck</h3>
+        <br/>
         <h3>
           Rating: <img src={pic} />
           6.4/10
         </h3>
+        <br/>
+        </div>
       </div>
       <div className="dropdown" align="center">
         <ListingsDrop />

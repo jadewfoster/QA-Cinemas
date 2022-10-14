@@ -25,7 +25,7 @@ const WhatsOnPage = () => {
         </div>
         <div className="moviebox">
           <a href="./avatar">
-            <img src={pic3} className="img" alt="avatar" />
+            <img src={pic3} className="img" alt="avatar" height="20%" width="20%"/>
           </a>
         </div>
         <div className="moviebox">

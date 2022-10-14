@@ -5,7 +5,7 @@ export default function Smile() {
   return (
     <>
       <div align="center" style={{ fontFamily: "bebas neue" }}>
-        <h1>Smile</h1>
+        <h1 className="title">Smile</h1>
         <h3>
           Description: After witnessing a bizarre, traumatic incident involving
           a patient, Dr. Rose Cotter starts experiencing frightening occurrences

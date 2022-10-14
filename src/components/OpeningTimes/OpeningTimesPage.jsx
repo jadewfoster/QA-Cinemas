@@ -17,9 +17,8 @@ const OpeningTimes = () => {
 
       </Container>
 
-      <div align="center">
-      <div id="dropped-box" className="centerbody" align="center">
-            <Table size="sm" borderless id="opening-times-table" align="center">
+      <div id="dropped-box">
+            <Table size="sm" borderless id="opening-times-table" className="center">
                 <thead>
                 <tr>
                     <th id="head">DAY</th>
@@ -57,7 +56,6 @@ const OpeningTimes = () => {
                 </tr>
                 </tbody>
             </Table>
-            </div>
             </div>
 </div>
 

@@ -5,7 +5,7 @@ export default function TicketToParadise() {
     return (
       <>
         <div align="center" style={{ fontFamily: "bebas neue" }}>
-          <h1>Ticket To Paradise</h1>
+          <h1 className="title">Ticket To Paradise</h1>
           <h3>
             Description: A divorced couple teams up and travels to Bali to stop
             their daughter from making the same mistake they think they made 25

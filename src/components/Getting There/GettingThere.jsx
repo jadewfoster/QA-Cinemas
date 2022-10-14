@@ -34,7 +34,7 @@ const GettingThere = () => {
     <div className='branch-thumbnail'>
       <div className='branch-image'>
       <a href="/londoncentral">
-        <img src={pic}>
+        <img src={pic} alt="London Central">
       </img>
       </a>
       <br/>
@@ -58,7 +58,7 @@ const GettingThere = () => {
     <div className='branch-thumbnail'>
       <div className='branch-image'>
       <a href="/londonnorth">
-        <img src={pic2}>
+        <img src={pic2} alt="London North">
       </img>
       </a>
       <br/>
@@ -79,7 +79,7 @@ const GettingThere = () => {
 
     <div className='branch-thumbnail'>
       <div className='branch-image'>
-      <a href="/londonsouth">
+      <a href="/londonsouth" alt="London South">
         <img src={pic3}>
       </img>
       </a>
