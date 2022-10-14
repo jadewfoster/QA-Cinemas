@@ -77,7 +77,7 @@ describe("screeningsAPI test", function() {
     
 ### Testing the frontend
 
-We tested the front-end using automation testing in Selenium. We wrote these tests in Java on Eclipse. 
+We tested the front-end using automation testing in Selenium with TestNG. We wrote these tests in Java on Eclipse. 
 To run these tests, ensure you change the Chromedriver file path to your local path for chromedriver. 
 - Chrome driver can be downloaded here: https://chromedriver.chromium.org/downloads
 
