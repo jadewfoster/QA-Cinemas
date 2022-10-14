@@ -30,9 +30,7 @@ export default function BT() {
         <br/>
       </div>
       </div>
-      <div className="dropdown" align="center">
-        <ListingsDrop/>
-      </div>
+
       <div id="dropped-box" className="container-fluid" align="center">
         <Table size="sm" borderless id="opening-times-table">
           <thead>

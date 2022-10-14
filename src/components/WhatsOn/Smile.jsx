@@ -25,9 +25,7 @@ export default function Smile() {
           6.9/10
         </h3>
       </div>
-      <div className="dropdown" align="center">
-        <ListingsDrop />
-      </div>
+
       <div id="dropped-box" className="container-fluid" align="center">
         <Table size="sm" borderless id="opening-times-table">
           <thead>

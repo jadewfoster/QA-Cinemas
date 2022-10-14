@@ -19,9 +19,7 @@ export default function TicketToParadise() {
           <h3>Director: Ol Parker</h3>
           <h3>Rating: <img src={pic} />6.4/10</h3>
         </div>
-        <div className="dropdown" align="center">
-        <ListingsDrop />
-      </div>
+
       <div id="dropped-box" className="container-fluid" align="center">
         <Table size="sm" borderless id="opening-times-table">
           <thead>
