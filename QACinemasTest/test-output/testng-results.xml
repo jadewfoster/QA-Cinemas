@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-14T12:31:34 BST" name="Default suite" finished-at="2022-10-14T12:31:50 BST" duration-ms="15842">
+    <groups>
+    </groups>
+    <test started-at="2022-10-14T12:31:34 BST" name="Default test" finished-at="2022-10-14T12:31:50 BST" duration-ms="15842">
+      <class name="com.qa.tests.NavbarTest">
+        <test-method is-config="true" signature="initiateBrowser()[pri:0, instance:com.qa.tests.NavbarTest@2ed2d9cb]" started-at="2022-10-14T12:31:34 BST" name="initiateBrowser" finished-at="2022-10-14T12:31:37 BST" duration-ms="2689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method signature="clickAboutUsButton()[pri:0, instance:com.qa.tests.NavbarTest@2ed2d9cb]" started-at="2022-10-14T12:31:37 BST" name="clickAboutUsButton" finished-at="2022-10-14T12:31:37 BST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAboutUsButton -->
+        <test-method signature="clickBookingsPage()[pri:0, instance:com.qa.tests.NavbarTest@2ed2d9cb]" started-at="2022-10-14T12:31:37 BST" name="clickBookingsPage" finished-at="2022-10-14T12:31:38 BST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBookingsPage -->
+        <test-method signature="clickClassificationsButton()[pri:0, instance:com.qa.tests.NavbarTest@2ed2d9cb]" started-at="2022-10-14T12:31:38 BST" name="clickClassificationsButton" finished-at="2022-10-14T12:31:38 BST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickClassificationsButton -->
+        <test-method signature="clickContactUsButton()[pri:0, instance:com.qa.tests.NavbarTest@2ed2d9cb]" started-at="2022-10-14T12:31:38 BST" name="clickContactUsButton" finished-at="2022-10-14T12:31:39 BST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContactUsButton -->
+        <test-method signature="clickDiscussionsPage()[pri:0, instance:com.qa.tests.NavbarTest@2ed2d9cb]" started-at="2022-10-14T12:31:39 BST" name="clickDiscussionsPage" finished-at="2022-10-14T12:31:39 BST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDiscussionsPage -->
+        <test-method signature="clickGettingThereButton()[pri:0, instance:com.qa.tests.NavbarTest@2ed2d9cb]" started-at="2022-10-14T12:31:39 BST" name="clickGettingThereButton" finished-at="2022-10-14T12:31:41 BST" duration-ms="2467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGettingThereButton -->
+        <test-method signature="clickHomeButton()[pri:0, instance:com.qa.tests.NavbarTest@2ed2d9cb]" started-at="2022-10-14T12:31:41 BST" name="clickHomeButton" finished-at="2022-10-14T12:31:41 BST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickHomeButton -->
+        <test-method signature="clickListingsGalleryButton()[pri:0, instance:com.qa.tests.NavbarTest@2ed2d9cb]" started-at="2022-10-14T12:31:41 BST" name="clickListingsGalleryButton" finished-at="2022-10-14T12:31:42 BST" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickListingsGalleryButton -->
+        <test-method signature="clickOpeningTimesButton()[pri:0, instance:com.qa.tests.NavbarTest@2ed2d9cb]" started-at="2022-10-14T12:31:42 BST" name="clickOpeningTimesButton" finished-at="2022-10-14T12:31:44 BST" duration-ms="2500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOpeningTimesButton -->
+        <test-method signature="clickPlacesToGoButton()[pri:0, instance:com.qa.tests.NavbarTest@2ed2d9cb]" started-at="2022-10-14T12:31:44 BST" name="clickPlacesToGoButton" finished-at="2022-10-14T12:31:47 BST" duration-ms="2484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPlacesToGoButton -->
+        <test-method signature="clickScreensButton()[pri:0, instance:com.qa.tests.NavbarTest@2ed2d9cb]" started-at="2022-10-14T12:31:47 BST" name="clickScreensButton" finished-at="2022-10-14T12:31:49 BST" duration-ms="2537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickScreensButton -->
+        <test-method signature="clickUpcomingReleases()[pri:0, instance:com.qa.tests.NavbarTest@2ed2d9cb]" started-at="2022-10-14T12:31:49 BST" name="clickUpcomingReleases" finished-at="2022-10-14T12:31:50 BST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickUpcomingReleases -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.qa.tests.NavbarTest@2ed2d9cb]" started-at="2022-10-14T12:31:50 BST" name="terminateBrowser" finished-at="2022-10-14T12:31:50 BST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.qa.tests.NavbarTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
