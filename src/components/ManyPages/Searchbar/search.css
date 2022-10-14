@@ -1,0 +1,29 @@
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+input[type=text] {    
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    width: 100%;
+    border: none;
+    box-sizing:border-box;
+
+  }
+
+  .submit {
+    font-family: 'bebas neue';
+    text-align:center;
+    border: 0.1rem;
+    border-color: black;
+    cursor: pointer;
+    background-color: #4CD3CA;
+    font-size: medium;
+
+}

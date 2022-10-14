@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+}
+  
+.tag {
+    text-align: center;
+}
+  
+.slick-slide img {
+    margin: auto;
+    width: 60%;
+    height: 60%;
+}
+
+.dots{
+    color: #4cd3cb;
+}

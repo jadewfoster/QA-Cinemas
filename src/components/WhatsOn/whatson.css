@@ -1,0 +1,17 @@
+.header {
+    font-family: "bebas neue";
+    display:flexbox;
+    
+}
+
+.moviebox {
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+.img {  
+    max-width: 750px;  
+    height: auto;  
+    }  
