@@ -1,5 +1,8 @@
 import React from "react";
 import pic from "./star1.png"
+import ListingsDrop from "./ListingsDrop";
+import { Table } from "reactstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function TicketToParadise() {
     return (
@@ -16,6 +19,37 @@ export default function TicketToParadise() {
           <h3>Director: Ol Parker</h3>
           <h3>Rating: <img src={pic} />6.4/10</h3>
         </div>
+        <div className="dropdown" align="center">
+        <ListingsDrop />
+      </div>
+      <div id="dropped-box" className="container-fluid" align="center">
+        <Table size="sm" borderless id="opening-times-table">
+          <thead>
+            <tr>
+              <th id="head">DAY</th>
+              <th id="head">TIME</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>6pm, 9pm</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>1pm, 6pm, 8pm</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>5pm, 7pm, 9pm</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>5pm, 7pm, 9pm</td>
+            </tr>
+          </tbody>
+        </Table>
+      </div>
       </>
     );
   }

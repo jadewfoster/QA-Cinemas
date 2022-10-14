@@ -1,5 +1,8 @@
 import React from "react";
 import pic from "./star1.png";
+import ListingsDrop from "./ListingsDrop";
+import { Table } from "reactstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function MrsHarris() {
   return (
@@ -18,6 +21,33 @@ export default function MrsHarris() {
           Rating: <img src={pic} />
           7.1/10
         </h3>
+      </div>
+      <div className="dropdown" align="center">
+        <ListingsDrop />
+      </div>
+      <div id="dropped-box" className="container-fluid" align="center">
+        <Table size="sm" borderless id="opening-times-table">
+          <thead>
+            <tr>
+              <th id="head">DAY</th>
+              <th id="head">TIME</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>12pm, 3pm, 6pm</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>2pm, 4pm</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>11am, 3pm</td>
+            </tr>
+          </tbody>
+        </Table>
       </div>
     </>
   );
