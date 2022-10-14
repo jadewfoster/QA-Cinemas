@@ -13,7 +13,6 @@ This website has
 - A page descibing the movie classification system.
 - A page decribing the different screens in each of the cinemas.
 - A bookings page which allows users to select their cinema and movie preference, then see the available screenings for those selections. From there they can select which date and time they would like to go to and this then redirects them to the payments page.
-- The payments page allows the user to select the number of tickets, where prices depend on the screen type. They then enter their payment details and will recieve an email confirmation. This uses a plug-in called stripe. No payment is actually taken.
 - A page for places to go which inlcudes information on locals venues where customers could visit before or after the movie.
 - A page with details on how to get to each cinema, including a map.
 - A discussion board page which allows people to post comments and rates the movies they've seen.
